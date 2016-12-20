@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DesiredCapabilities>
+    <capabilities>
+        <platformName>Android</platformName>
+        <deviceName>192.168.8.130</deviceName>
+        <platformVersion>5.1.1</platformVersion>
+        <appPackage>com.swl.kclauncher</appPackage>
+        <appActivity>com.swl.kclauncher.ui.WelcomeActivity</appActivity>
+        <unicodeKeyboard>True</unicodeKeyboard>
+        <resetKeyboard>True</resetKeyboard>
+    </capabilities>
+</DesiredCapabilities>

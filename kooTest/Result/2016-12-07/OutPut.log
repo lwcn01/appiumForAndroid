@@ -1,0 +1,56 @@
+2016-12-07 15:18:49,660 - New - INFO - 当前Python 版本：Python 3.5.2
+2016-12-07 15:18:49,986 - New - INFO - 配置文件路径：G:\workspace\kooTest\Data\cap.xml
+2016-12-07 15:18:59,811 - New - INFO - 测试用例路径：G:\workspace\kooTest\Data\testcase.xlsx
+2016-12-07 15:18:59,816 - New - INFO - TC_001: {'测试数据': '', '操作方法': 'click', '用例描述': '今日头条播放', '测试页面对象': '今日头条', '测试描述': '进入今日头条页面', '测试结果': '', '定位方式': 'accessibility id', '测试对象实体': 'com.swl.kclauncher:id/today_news_entrance', '测试步骤': 'TS_001', '测试用例ID': 'TC_001'}
+2016-12-07 15:19:15,387 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 ('accessibility id', '测试对象实体') 元素
+2016-12-07 15:19:15,388 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 None 元素
+2016-12-07 15:19:15,388 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 None 元素
+2016-12-07 15:19:15,389 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面未能找到 None 按钮
+2016-12-07 15:19:15,389 - New - INFO - TC_001: {'测试数据': '', '操作方法': 'click', '用例描述': '今日头条播放', '测试页面对象': '今日头条', '测试描述': '聚焦右侧节目列表', '测试结果': '', '定位方式': 'xpath', '测试对象实体': '//android.support.v7.widget.RecyclerView[0]', '测试步骤': 'TS_002', '测试用例ID': 'TC_001'}
+2016-12-07 15:19:30,583 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 ('xpath', '测试对象实体') 元素
+2016-12-07 15:19:30,584 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 None 元素
+2016-12-07 15:19:30,584 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 None 元素
+2016-12-07 15:19:30,585 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面未能找到 None 按钮
+2016-12-07 15:19:30,586 - New - INFO - TC_001: {'测试数据': '', '操作方法': 'traverse', '用例描述': '今日头条播放', '测试页面对象': '今日头条', '测试描述': '滚动右侧节目列表', '测试结果': '', '定位方式': 'key', '测试对象实体': 'down', '测试步骤': 'TS_003', '测试用例ID': 'TC_001'}
+2016-12-07 15:19:30,587 - New - INFO - TC_001: {'测试数据': '', '操作方法': 'click', '用例描述': '今日头条播放', '测试页面对象': '今日头条—播放页面', '测试描述': '进入全屏播放', '测试结果': '', '定位方式': 'accessibility id', '测试对象实体': 'com.swl.kclauncher:id/ll_headline_full', '测试步骤': 'TS_004', '测试用例ID': 'TC_001'}
+2016-12-07 15:19:46,043 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 ('accessibility id', '测试对象实体') 元素
+2016-12-07 15:19:46,044 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 None 元素
+2016-12-07 15:19:46,044 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面中未能找到 None 元素
+2016-12-07 15:19:46,045 - New - WARNING - <Module.SubPage.SubPage object at 0x0000000003254DD8> 页面未能找到 None 按钮
+2016-12-07 15:19:46,046 - New - INFO - TC_001: {'测试数据': '', '操作方法': 'none', '用例描述': '今日头条播放', '测试页面对象': '今日头条—播放页面', '测试描述': '暂停节目播放', '测试结果': '', '定位方式': 'key', '测试对象实体': 'ok', '测试步骤': 'TS_005', '测试用例ID': 'TC_001'}
+2016-12-07 15:19:46,047 - New - INFO - 按键事件：keycode 23
+2016-12-07 17:20:08,789 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:20:09,043 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:20:09,527 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:20:09,551 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:20:09,710 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:20:09,807 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:39:19,100 - New - INFO - 当前Python 版本：Python 3.5.2
+2016-12-07 17:39:19,124 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:39:19,211 - New - INFO - 配置文件路径：G:\workspace\kooTest\Data\cap.xml
+2016-12-07 17:39:29,734 - New - INFO - 测试用例路径：G:\workspace\kooTest\Data\testcase.xlsx
+2016-12-07 17:39:29,740 - New - INFO - TC_001: {'操作方法': 'click', '测试数据': '', '测试步骤': 'TS_001', '定位方式': 'accessibility id', '测试描述': '进入今日头条页面', '测试用例ID': 'TC_001', '测试页面对象': '今日头条', '测试对象实体': 'com.swl.kclauncher:id/today_news_entrance', '用例描述': '今日头条播放', '测试结果': ''}
+2016-12-07 17:39:45,224 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 ('accessibility id', '测试对象实体') 元素
+2016-12-07 17:39:45,224 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 None 元素
+2016-12-07 17:39:45,225 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 None 元素
+2016-12-07 17:39:45,225 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面未能找到 None 按钮
+2016-12-07 17:39:45,226 - New - INFO - TC_001: {'操作方法': 'click', '测试数据': '', '测试步骤': 'TS_002', '定位方式': 'xpath', '测试描述': '聚焦右侧节目列表', '测试用例ID': 'TC_001', '测试页面对象': '今日头条', '测试对象实体': '//android.support.v7.widget.RecyclerView[0]', '用例描述': '今日头条播放', '测试结果': ''}
+2016-12-07 17:40:00,422 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 ('xpath', '测试对象实体') 元素
+2016-12-07 17:40:00,422 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 None 元素
+2016-12-07 17:40:00,423 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 None 元素
+2016-12-07 17:40:00,423 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面未能找到 None 按钮
+2016-12-07 17:40:00,424 - New - INFO - TC_001: {'操作方法': 'traverse', '测试数据': '', '测试步骤': 'TS_003', '定位方式': 'key', '测试描述': '滚动右侧节目列表', '测试用例ID': 'TC_001', '测试页面对象': '今日头条', '测试对象实体': 'down', '用例描述': '今日头条播放', '测试结果': ''}
+2016-12-07 17:40:00,425 - New - INFO - TC_001: {'操作方法': 'click', '测试数据': '', '测试步骤': 'TS_004', '定位方式': 'accessibility id', '测试描述': '进入全屏播放', '测试用例ID': 'TC_001', '测试页面对象': '今日头条—播放页面', '测试对象实体': 'com.swl.kclauncher:id/ll_headline_full', '用例描述': '今日头条播放', '测试结果': ''}
+2016-12-07 17:40:16,244 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 ('accessibility id', '测试对象实体') 元素
+2016-12-07 17:40:16,247 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 None 元素
+2016-12-07 17:40:16,248 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面中未能找到 None 元素
+2016-12-07 17:40:16,249 - New - WARNING - <Module.SubPage.SubPage object at 0x000000000342C828> 页面未能找到 None 按钮
+2016-12-07 17:40:16,249 - New - INFO - TC_001: {'操作方法': 'none', '测试数据': '', '测试步骤': 'TS_005', '定位方式': 'key', '测试描述': '暂停节目播放', '测试用例ID': 'TC_001', '测试页面对象': '今日头条—播放页面', '测试对象实体': 'ok', '用例描述': '今日头条播放', '测试结果': ''}
+2016-12-07 17:40:16,251 - New - INFO - 按键事件：keycode 23
+2016-12-07 17:42:17,068 - New - INFO - 当前Python 版本：Python 3.5.2
+2016-12-07 17:42:17,091 - New - WARNING - ADB连接...失败
+2016-12-07 17:43:13,929 - New - INFO - 当前Python 版本：Python 3.5.2
+2016-12-07 17:43:13,954 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:56:00,537 - New - INFO - 当前Python 版本：Python 3.5.2
+2016-12-07 17:56:00,561 - New - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-12-07 17:56:00,643 - New - INFO - 配置文件路径：G:\workspace\kooTest\Data\cap.xml

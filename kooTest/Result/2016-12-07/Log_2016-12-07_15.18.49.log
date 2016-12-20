@@ -1,0 +1,1012 @@
+--------- beginning of system
+12-06 20:13:45.960 W/ContextImpl( 4012): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1692 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.mbx.clearservice.Alarmreceiver.onReceive:17 android.app.ActivityThread.handleReceiver:2609 
+--------- beginning of main
+12-06 20:13:45.975 I/ClearService( 4012): 服务启动
+12-06 20:13:46.004 I/ClearService( 4012): 14
+12-06 20:13:46.010 I/ClearService( 4012): 清理前的可用内存408
+12-06 20:13:46.010 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@1dc7bcb0
+12-06 20:13:46.011 I/ClearService( 4012): 进程名org.coolx.htvlauncher
+12-06 20:13:46.014 I/ClearService( 4012): 前台进程org.coolx.htvlauncher
+12-06 20:13:46.014 I/ClearService( 4012): It will be killed, package name : org.coolx.htvlauncher
+12-06 20:13:46.021 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@29a92729
+12-06 20:13:46.021 I/ClearService( 4012): 进程名com.mbx.clearservice
+12-06 20:13:46.021 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@39aa5aae
+12-06 20:13:46.022 I/ClearService( 4012): 进程名com.google.process.gapps
+12-06 20:13:46.025 I/ClearService( 4012): 前台进程org.coolx.htvlauncher
+12-06 20:13:46.025 I/ClearService( 4012): It will be killed, package name : com.google.android.syncadapters.contacts
+12-06 20:13:46.028 I/ActivityManager( 3096): Killing 8254:com.google.process.gapps/u0a8 (adj 8): kill background
+12-06 20:13:46.089 W/ActivityManager( 3096): Scheduling restart of crashed service com.google.android.gms/.gcm.http.GoogleHttpService in 1000ms
+12-06 20:13:46.089 W/ActivityManager( 3096): Scheduling restart of crashed service com.google.android.gms/.gcm.GcmService in 11000ms
+12-06 20:13:46.090 I/ClearService( 4012): It will be killed, package name : com.google.android.gms
+12-06 20:13:46.090 I/ActivityManager( 3096): Killing 8236:com.google.android.gms.wearable/u0a8 (adj 8): kill background
+12-06 20:13:46.194 W/ActivityManager( 3096): Scheduling restart of crashed service com.google.android.gms/.wearable.service.WearableService in 16000ms
+12-06 20:13:46.194 I/ActivityManager( 3096): Killing 8285:com.google.android.gms/u0a8 (adj 5): kill background
+12-06 20:13:46.261 D/WifiService( 3096): Client connection lost with reason: 4
+12-06 20:13:46.299 W/ActivityManager( 3096): Scheduling restart of crashed service com.google.android.gms/.checkin.CheckinService in 11621837905592320ms
+12-06 20:13:46.300 W/ActivityManager( 3096): Spurious death for ProcessRecord{29c26e0d 8254:com.google.process.gapps/u0a8}, curProc for 8254: null
+12-06 20:13:46.309 W/ActivityManager( 3096): Spurious death for ProcessRecord{35296996 8236:com.google.android.gms.wearable/u0a8}, curProc for 8236: null
+12-06 20:13:46.309 W/ActivityManager( 3096): Spurious death for ProcessRecord{a976aca 8285:com.google.android.gms/u0a8}, curProc for 8285: null
+12-06 20:13:46.319 I/ClearService( 4012): It will be killed, package name : com.google.android.gsf
+12-06 20:13:46.320 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@5bdd04f
+12-06 20:13:46.320 I/ClearService( 4012): 进程名com.google.android.gms
+12-06 20:13:46.321 I/ClearService( 4012): 前台进程org.coolx.htvlauncher
+12-06 20:13:46.321 I/ClearService( 4012): It will be killed, package name : com.google.android.gms
+12-06 20:13:46.321 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@3363f3dc
+12-06 20:13:46.321 I/ClearService( 4012): 进程名com.google.android.gms.wearable
+12-06 20:13:46.322 I/ClearService( 4012): 前台进程org.coolx.htvlauncher
+12-06 20:13:46.322 I/ClearService( 4012): It will be killed, package name : com.google.android.gms
+12-06 20:13:46.323 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@e040ce5
+12-06 20:13:46.323 I/ClearService( 4012): 进程名com.android.tv.settings
+12-06 20:13:46.323 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@11c573ba
+12-06 20:13:46.323 I/ClearService( 4012): 进程名com.google.process.location
+12-06 20:13:46.324 I/ClearService( 4012): 前台进程org.coolx.htvlauncher
+12-06 20:13:46.324 I/ClearService( 4012): It will be killed, package name : com.google.android.gms
+12-06 20:13:46.324 I/ClearService( 4012): It will be killed, package name : com.google.android.backuptransport
+12-06 20:13:46.325 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@3631226b
+12-06 20:13:46.325 I/ClearService( 4012): 进程名swl.app.Upgrade
+12-06 20:13:46.325 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@152a71c8
+12-06 20:13:46.325 I/ClearService( 4012): 进程名com.droidlogic.PPPoE
+12-06 20:13:46.325 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@3a6d9261
+12-06 20:13:46.325 I/ClearService( 4012): 进程名com.droidlogic.SubTitleService
+12-06 20:13:46.325 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@1b471186
+12-06 20:13:46.325 I/ClearService( 4012): 进程名com.droidlogic.service.remotecontrol
+12-06 20:13:46.326 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@183d7a47
+12-06 20:13:46.326 I/ClearService( 4012): 进程名com.droidlogic.inputmethod.remote
+12-06 20:13:46.326 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@2758e274
+12-06 20:13:46.326 I/ClearService( 4012): 进程名com.android.systemui
+12-06 20:13:46.326 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@2f8ff39d
+12-06 20:13:46.326 I/ClearService( 4012): 进程名system
+12-06 20:13:46.329 I/ClearService( 4012): 清理后的可用内存419
+12-06 20:13:48.263 D/AndroidRuntime( 8344): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:48.266 D/AndroidRuntime( 8344): CheckJNI is OFF
+12-06 20:13:48.359 D/AndroidRuntime( 8344): Calling main entry com.android.commands.pm.Pm
+12-06 20:13:48.366 I/PackageManager( 3096): init_copy idx=0: InstallParams{d1d917 file=/data/local/tmp/UnicodeIME-debug.apk cid=null}
+12-06 20:13:48.398 I/ActivityManager( 3096): Start proc 8356:com.android.defcontainer/u0a3 for service com.android.defcontainer/.DefaultContainerService
+12-06 20:13:48.412 I/art     ( 2781): Explicit concurrent mark sweep GC freed 709(30KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/6MB, paused 3.857ms total 19.885ms
+12-06 20:13:48.424 I/PackageManager( 3096): mcs_bound
+12-06 20:13:48.424 I/PackageManager( 3096): startCopy UserHandle{-1}: InstallParams{d1d917 file=/data/local/tmp/UnicodeIME-debug.apk cid=null}
+12-06 20:13:48.433 I/art     ( 2781): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/6MB, paused 324us total 19.680ms
+12-06 20:13:48.434 D/DefContainer( 8356): Copying /data/local/tmp/UnicodeIME-debug.apk to base.apk
+12-06 20:13:48.439 D/PackageManager( 3096): installPackageLI: path=/data/app/vmdl793319018.tmpjava.lang.Throwable
+12-06 20:13:48.439 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService.installPackageLI(PackageManagerService.java:10758)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService.access$2300(PackageManagerService.java:237)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService$6.run(PackageManagerService.java:8849)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at android.os.Handler.handleCallback(Handler.java:739)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at android.os.Looper.loop(Looper.java:135)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-06 20:13:48.439 D/PackageManager( 3096): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+12-06 20:13:48.449 D/PackageManager( 3096): manifestDigest was not present, but parser got: ManifestDigest {mDigest=7c,db,9c,a4,c7,59,ae,b8,83,5a,b8,a9,62,c8,53,bf,79,8c,b4,08,f2,e0,61,eb,f1,06,42,ae,5d,bc,c7,7d,}
+12-06 20:13:48.449 D/PackageManager( 3096): Renaming /data/app/vmdl793319018.tmp to /data/app/io.appium.android.ime-1
+12-06 20:13:48.450 D/PackageManager( 3096): installNewPackageLI: Package{166216a5 io.appium.android.ime}
+12-06 20:13:48.454 I/art     ( 2781): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/6MB, paused 308us total 19.828ms
+12-06 20:13:48.462 I/PackageManager( 3096): Linking native library dir for /data/app/io.appium.android.ime-1
+12-06 20:13:48.463 I/PackageManager( 3096): Running dexopt on: /data/app/io.appium.android.ime-1/base.apk pkg=io.appium.android.ime isa=arm vmSafeMode=false
+12-06 20:13:48.491 E/cutils-trace( 8375): Error opening trace file: Permission denied (13)
+12-06 20:13:48.491 I/dex2oat ( 8375): /system/bin/dex2oat --zip-fd=6 --zip-location=/data/app/io.appium.android.ime-1/base.apk --oat-fd=7 --oat-location=/data/dalvik-cache/arm/data@app@io.appium.android.ime-1@base.apk@classes.dex --instruction-set=arm --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=10
+12-06 20:13:48.497 I/dex2oat ( 8375): Decided to run without swap.
+12-06 20:13:48.529 I/dex2oat ( 8375): dex2oat took 37.721ms (threads: 4) arena alloc=88KB java alloc=27KB native alloc=1146KB free=25KB
+12-06 20:13:48.569 D/PackageManager( 3096): New package installed in /data/app/io.appium.android.ime-1
+12-06 20:13:48.619 V/PackageManager( 3096): + starting restore round-trip 2
+12-06 20:13:48.619 V/PackageManager( 3096): token 2 to BM for possible restore
+12-06 20:13:48.619 V/BackupManagerService( 3096): restoreAtInstall pkg=io.appium.android.ime token=2 restoreSet=0
+12-06 20:13:48.619 V/BackupManagerService( 3096): Finishing install immediately
+12-06 20:13:48.619 V/PackageManager( 3096): BM finishing package install for 2
+12-06 20:13:48.619 V/PackageManager( 3096): Handling post-install for 2
+12-06 20:13:48.624 I/InputReader( 3096): Reconfiguring input devices.  changes=0x00000010
+12-06 20:13:48.640 W/Settings( 3096): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+12-06 20:13:48.641 D/BackupManagerService( 3096): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.android.ime flg=0x4000010 (has extras) }
+12-06 20:13:48.641 W/BackupManagerService( 3096): Removing schedule queue dupe of io.appium.android.ime
+12-06 20:13:48.643 D/apps    ( 7177): apps.size()=17
+12-06 20:13:48.644 W/PackageManager( 7177): Failure retrieving resources for com.android.gallery3d: Resource ID #0x0
+12-06 20:13:48.646 W/PackageManager( 7177): Failure retrieving resources for com.android.tv.settings: Resource ID #0x0
+12-06 20:13:48.647 W/PackageManager( 7177): Failure retrieving resources for com.android.vending: Resource ID #0x0
+12-06 20:13:48.650 W/PackageManager( 7177): Failure retrieving resources for com.android.browser: Resource ID #0x0
+12-06 20:13:48.652 W/PackageManager( 7177): Failure retrieving resources for org.coolx.htvlauncher: Resource ID #0x0
+12-06 20:13:48.653 W/PackageManager( 7177): Failure retrieving resources for com.android.music: Resource ID #0x0
+12-06 20:13:48.655 W/PackageManager( 7177): Failure retrieving resources for com.google.android.youtube.tv: Resource ID #0x0
+12-06 20:13:48.657 I/ActivityManager( 3096): Start proc 8380:android.process.acore/u0a2 for broadcast com.android.providers.contacts/.PackageIntentReceiver
+12-06 20:13:48.657 W/PackageManager( 7177): Failure retrieving resources for com.swl.kclauncher: Resource ID #0x0
+12-06 20:13:48.659 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.mediacenter: Resource ID #0x0
+12-06 20:13:48.665 W/PackageManager( 7177): Failure retrieving resources for com.mbx.clearservice: Resource ID #0x0
+12-06 20:13:48.666 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.FileBrower: Resource ID #0x0
+12-06 20:13:48.668 W/PackageManager( 7177): Failure retrieving resources for com.swl.market: Resource ID #0x0
+12-06 20:13:48.670 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.miracast: Resource ID #0x0
+12-06 20:13:48.673 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.PPPoE: Resource ID #0x0
+12-06 20:13:48.675 W/PackageManager( 7177): Failure retrieving resources for swl.app.Upgrade: Resource ID #0x0
+12-06 20:13:48.677 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.videoplayer: Resource ID #0x0
+12-06 20:13:48.711 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:48.712 D/Utils   ( 7177): load string is com.swl.kclauncher;
+12-06 20:13:48.712 D/Utils   ( 7177): CustomApp Size: 1 / 	[com.swl.kclauncher]
+12-06 20:13:48.712 D/Utils   ( 7177): path==/data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:48.712 D/Utils   ( 7177): 写入应用：com.swl.kclauncher
+12-06 20:13:48.713 D/Utils   ( 7177): 写入应用：io.appium.android.ime
+12-06 20:13:48.713 D/Utils   ( 7177): 写入应用完成
+12-06 20:13:48.713 D/sven    ( 7177): 添加到炫版分类 Appium Android Input Manager for Unicode
+12-06 20:13:48.715 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:48.716 D/Utils   ( 7177): load string is com.swl.kclauncher;io.appium.android.ime;
+12-06 20:13:48.716 D/Utils   ( 7177): CustomApp Size: 2 / 	[com.swl.kclauncher, io.appium.android.ime]
+12-06 20:13:48.721 W/PackageManager( 7177): Failure retrieving resources for com.android.gallery3d: Resource ID #0x0
+12-06 20:13:48.725 W/PackageManager( 7177): Failure retrieving resources for com.android.tv.settings: Resource ID #0x0
+12-06 20:13:48.731 W/PackageManager( 7177): Failure retrieving resources for com.android.vending: Resource ID #0x0
+12-06 20:13:48.733 W/PackageManager( 7177): Failure retrieving resources for com.android.browser: Resource ID #0x0
+12-06 20:13:48.735 W/PackageManager( 7177): Failure retrieving resources for org.coolx.htvlauncher: Resource ID #0x0
+12-06 20:13:48.737 W/PackageManager( 7177): Failure retrieving resources for com.android.music: Resource ID #0x0
+12-06 20:13:48.740 W/PackageManager( 7177): Failure retrieving resources for com.google.android.youtube.tv: Resource ID #0x0
+12-06 20:13:48.743 W/PackageManager( 7177): Failure retrieving resources for com.swl.kclauncher: Resource ID #0x0
+12-06 20:13:48.745 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.mediacenter: Resource ID #0x0
+12-06 20:13:48.747 W/PackageManager( 7177): Failure retrieving resources for com.mbx.clearservice: Resource ID #0x0
+12-06 20:13:48.748 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.FileBrower: Resource ID #0x0
+12-06 20:13:48.750 W/PackageManager( 7177): Failure retrieving resources for com.swl.market: Resource ID #0x0
+12-06 20:13:48.753 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.miracast: Resource ID #0x0
+12-06 20:13:48.755 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.PPPoE: Resource ID #0x0
+12-06 20:13:48.756 W/PackageManager( 7177): Failure retrieving resources for swl.app.Upgrade: Resource ID #0x0
+12-06 20:13:48.757 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.videoplayer: Resource ID #0x0
+12-06 20:13:48.804 W/Searchables( 3096): No global search activity found
+12-06 20:13:48.805 I/art     ( 3096): Explicit concurrent mark sweep GC freed 20170(1349KB) AllocSpace objects, 7(112KB) LOS objects, 33% free, 11MB/16MB, paused 1.092ms total 164.456ms
+12-06 20:13:48.806 E/cutils-trace( 8344): Error opening trace file: Permission denied (13)
+12-06 20:13:48.808 I/art     ( 8344): System.exit called, status: 0
+12-06 20:13:48.808 I/AndroidRuntime( 8344): VM exiting with result code 0.
+12-06 20:13:48.842 I/ContactLocale( 8380): AddressBook Labels [en-US;zh-CN]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Ї, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+12-06 20:13:48.847 I/ActivityManager( 3096): Start proc 8405:com.android.gallery3d/u0a6 for broadcast com.android.gallery3d/.app.PackagesMonitor
+12-06 20:13:48.850 W/VoiceInteractionManagerService( 3096): no available voice recognition services found for user 0
+12-06 20:13:48.936 I/ActivityManager( 3096): Start proc 8426:com.android.musicfx/u0a10 for broadcast com.android.musicfx/.Compatibility$Receiver
+12-06 20:13:49.021 I/ActivityManager( 3096): Start proc 8445:com.google.android.gms/u0a8 for broadcast com.google.android.gms/.config.ConfigFetchService$PackageReceiver
+12-06 20:13:49.050 W/ResourcesManager( 8445): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+12-06 20:13:49.062 I/MultiDex( 8445): VM with version 2.1.0 has multidex support
+12-06 20:13:49.063 I/MultiDex( 8445): install
+12-06 20:13:49.063 I/MultiDex( 8445): VM has multidex support, MultiDex support library is disabled.
+12-06 20:13:49.107 D/AndroidRuntime( 8422): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:49.112 D/AndroidRuntime( 8422): CheckJNI is OFF
+12-06 20:13:49.122 I/ActivityManager( 3096): Start proc 8465:com.google.process.gapps/u0a8 for content provider com.google.android.gsf/.gservices.GservicesProvider
+12-06 20:13:49.145 I/GservicesProvider( 8465): Gservices pushing to system: true; secure/global: true
+12-06 20:13:49.149 E/cutils-trace( 8422): Error opening trace file: Permission denied (13)
+12-06 20:13:49.178 I/ProviderInstaller( 8445): Insert disabled by gate 'gms:security:enable_conscrypt_in_gms_application'
+12-06 20:13:49.180 I/ConfigFetchService( 8445): PackageReceiver: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.android.ime flg=0x4000010 cmp=com.google.android.gms/.config.ConfigFetchService$PackageReceiver (has extras) }
+12-06 20:13:49.200 I/CheckinService( 8445): Disabling old GoogleServicesFramework version
+12-06 20:13:49.218 W/ResourcesManager( 8465): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+12-06 20:13:49.221 I/MultiDex( 8465): VM with version 2.1.0 has multidex support
+12-06 20:13:49.221 I/MultiDex( 8465): install
+12-06 20:13:49.222 I/MultiDex( 8465): VM has multidex support, MultiDex support library is disabled.
+12-06 20:13:49.223 I/ConfigFetchService( 8445): onStartCommand Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.android.ime cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+12-06 20:13:49.224 I/ConfigFetchService( 8445): launchTask
+12-06 20:13:49.227 I/ProviderInstaller( 8465): Insert disabled by gate 'gms:security:enable_conscrypt_in_gms_application'
+12-06 20:13:49.228 I/ConfigService( 8465): onCreate
+12-06 20:13:49.239 D/AndroidRuntime( 8422): Calling main entry com.android.commands.settings.SettingsCmd
+12-06 20:13:49.241 I/ConfigService( 8465): onBind for Intent { act=com.google.android.gms.config.UPDATE pkg=com.google.android.gms } action com.google.android.gms.config.UPDATE
+12-06 20:13:49.246 I/ConfigService( 8465): onBind returning update interface
+12-06 20:13:49.249 D/AndroidRuntime( 8422): Shutting down VM
+12-06 20:13:49.249 I/ConfigService( 8465): onBind for Intent { act=com.google.android.gms.config.START pkg=com.google.android.gms } action com.google.android.gms.config.START
+12-06 20:13:49.250 I/ConfigService( 8465): onBind returning config service
+12-06 20:13:49.257 W/ConfigFetchTask( 8445): no android id
+12-06 20:13:49.257 E/ConfigFetchTask( 8445): failed to build request; aborting config fetch
+12-06 20:13:49.290 I/ConfigFetchService( 8445): service connected
+12-06 20:13:49.301 I/ConfigClient( 8445): service connected
+12-06 20:13:49.302 I/ConfigFetchService( 8445): fetch service done; releasing wakelock
+12-06 20:13:49.302 I/ConfigFetchService( 8445): stopping self
+12-06 20:13:49.326 I/ActivityManager( 3096): Start proc 8508:com.android.vending/u0a17 for broadcast com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver
+12-06 20:13:49.339 D/PackageBroadcastService( 8445): Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=io.appium.android.ime
+12-06 20:13:49.342 I/ConfigService( 8465): onDestroy
+12-06 20:13:49.345 I/CheckinService( 8445): active receiver: enabled
+12-06 20:13:49.347 I/CheckinService( 8445): Preparing to send checkin request
+12-06 20:13:49.372 I/EventLogService( 8445): Accumulating logs since 1481094770773
+12-06 20:13:49.373 I/PeopleContactsSync( 8445): CP2 sync disabled
+12-06 20:13:49.399 I/ActivityManager( 3096): Start proc 8530:com.google.android.gms.wearable/u0a8 for service com.google.android.gms/.wearable.service.WearableControlService
+12-06 20:13:49.425 W/ResourcesManager( 8530): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+12-06 20:13:49.436 W/GmsApplication( 8445): Using Auth Proxy for data requests.
+12-06 20:13:49.442 I/Icing   ( 8445): Storage manager: low false usage 65.46KB avail 3.44GB capacity 3.59GB
+12-06 20:13:49.451 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.463 I/MultiDex( 8530): VM with version 2.1.0 has multidex support
+12-06 20:13:49.463 I/MultiDex( 8530): install
+12-06 20:13:49.463 I/MultiDex( 8530): VM has multidex support, MultiDex support library is disabled.
+12-06 20:13:49.467 I/GoogleHttpClient( 8445): Falling back to old SSLCertificateSocketFactory
+12-06 20:13:49.470 I/GLSUser ( 8445): [ ChannelManager ] Attempting to channel bind connection HttpClient.
+12-06 20:13:49.496 I/GLSUser ( 8445): [ ChannelManager ] Skip channel binding on pre-KLP devices.
+12-06 20:13:49.496 I/ProviderInstaller( 8530): Insert disabled by gate 'gms:security:enable_conscrypt_in_gms_application'
+12-06 20:13:49.499 D/Finsky  ( 8508): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+12-06 20:13:49.502 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.505 W/GmsApplication( 8445): Using Auth Proxy for data requests.
+12-06 20:13:49.542 D/memtrack_aml( 3096): open file /proc/8422/status error No such file or directory
+12-06 20:13:49.545 I/GoogleHttpClient( 8445): Falling back to old SSLCertificateSocketFactory
+12-06 20:13:49.596 E/SQLiteLog( 8530): (284) automatic index on assetrefs(dataitems_id)
+12-06 20:13:49.603 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.605 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.607 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.613 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.626 W/GmsApplication( 8445): Using Auth Proxy for data requests.
+12-06 20:13:49.636 W/GmsApplication( 8445): Using Auth Proxy for data requests.
+12-06 20:13:49.642 W/GmsApplication( 8445): Using Auth Proxy for data requests.
+12-06 20:13:49.648 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.652 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.654 D/Finsky  ( 8508): [1] DailyHygiene.goMakeHygieneIfDirty: No need to run daily hygiene.
+12-06 20:13:49.658 W/GmsApplication( 8445): Using Auth Proxy for data requests.
+12-06 20:13:49.670 W/Settings( 8508): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-06 20:13:49.677 W/Settings( 8508): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-06 20:13:49.684 D/WifiService( 3096): New client listening to asynchronous messages
+12-06 20:13:49.700 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.703 D/AndroidRuntime( 8559): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:49.706 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.706 W/Finsky  ( 8508): [1] FinskyApp.getDfeApi: No account configured on this device.
+12-06 20:13:49.706 D/AndroidRuntime( 8559): CheckJNI is OFF
+12-06 20:13:49.736 I/ActivityManager( 3096): Start proc 8593:android.process.media/u0a4 for content provider com.android.providers.downloads/.DownloadProvider
+12-06 20:13:49.737 E/cutils-trace( 8559): Error opening trace file: Permission denied (13)
+12-06 20:13:49.737 V/AlarmManager( 3096): dgt,com.android.vending set alarm type:0
+12-06 20:13:49.748 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.760 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/tv_apps.cfg
+12-06 20:13:49.760 D/Utils   ( 7177): -----mExistsApps: 0
+12-06 20:13:49.760 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/demand_apps.cfg
+12-06 20:13:49.761 D/Utils   ( 7177): load string is com.swl.kclauncher;
+12-06 20:13:49.761 D/Utils   ( 7177): CustomApp Size: 1 / 	[com.swl.kclauncher]
+12-06 20:13:49.766 D/xx      ( 7177): 静态广播收到 安装 Appium Android Input Manager for Unicode
+12-06 20:13:49.767 D/Finsky  ( 8508): [1] ExternalReferrer.access$200: Package state data is missing for io.appium.android.ime
+12-06 20:13:49.775 D/Ads     ( 8508): Skipping gmscore version check
+12-06 20:13:49.781 W/GooglePlayServicesUtil( 8508): Google Play services out of date.  Requires 8296000 but found 6188836
+12-06 20:13:49.791 D/xx      ( 7177): 第三方应用  Appium Android Input Manager for Unicode
+12-06 20:13:49.800 I/art     ( 8621): Late-enabling -Xcheck:jni
+12-06 20:13:49.800 I/ActivityManager( 3096): Start proc 8621:com.swl.market/u0a33 for broadcast com.swl.market/com.htvmarket.service.InstalledReceiver
+12-06 20:13:49.817 D/AndroidRuntime( 8559): Calling main entry com.android.commands.ime.Ime
+12-06 20:13:49.834 D/AndroidRuntime( 8559): Shutting down VM
+12-06 20:13:49.858 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.859 W/ActivityManager( 3096): getRunningAppProcesses: caller 10033 does not hold REAL_GET_TASKS; limiting output
+12-06 20:13:49.860 W/Finsky  ( 8508): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:13:49.861 D/xx      ( 8621): application onCreate
+12-06 20:13:49.863 W/ActivityManager( 3096): getRunningAppProcesses: caller 10033 does not hold REAL_GET_TASKS; limiting output
+12-06 20:13:49.886 E/SQLiteLog( 8593): (283) recovered 36 frames from WAL file /data/data/com.android.providers.media/databases/external.db-wal
+12-06 20:13:49.907 D/xx      ( 8621): market application init
+12-06 20:13:49.913 I/homer   ( 8621): 安装了 :package:io.appium.android.ime
+12-06 20:13:49.919 D/GCM     ( 8465): COMPAT: Multi user not supported
+12-06 20:13:49.944 I/Icing   ( 8445): updateResources: need to parse e{com.google.android.gms}
+12-06 20:13:49.958 I/GoogleHttpClient( 8465): Falling back to old SSLCertificateSocketFactory
+12-06 20:13:49.963 D/Finsky  ( 8508): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+12-06 20:13:49.975 D/Finsky  ( 8508): [1] RestoreTracker.stopServiceIfDone: Restore complete with 0 success and 0 failed.
+12-06 20:13:49.981 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:13:49.983 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:13:49.984 D/GCM     ( 8465): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+12-06 20:13:49.985 D/AuthorizationBluetoothService( 8465): Received GmsCore event: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.be.proximity.authorization.bt.AuthorizationBluetoothService$AutoStarter }.
+12-06 20:13:49.990 E/AuthorizationBluetoothService( 8465): Proximity feature is not enabled.
+12-06 20:13:50.000 I/Icing   ( 8445): Internal init done: storage state 0
+12-06 20:13:50.000 D/GCM     ( 8465): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+12-06 20:13:50.006 D/AuthorizationBluetoothService( 8465): Received GmsCore event: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.be.proximity.authorization.bt.AuthorizationBluetoothService$AutoStarter }.
+12-06 20:13:50.006 E/AuthorizationBluetoothService( 8465): Proximity feature is not enabled.
+12-06 20:13:50.015 D/GCM     ( 8465): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+12-06 20:13:50.025 D/AuthorizationBluetoothService( 8465): Received GmsCore event: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.auth.be.proximity.authorization.bt.AuthorizationBluetoothService$AutoStarter }.
+12-06 20:13:50.025 E/AuthorizationBluetoothService( 8465): Proximity feature is not enabled.
+12-06 20:13:50.043 I/Icing   ( 8445): Post-init done
+12-06 20:13:50.043 W/ActivityThread( 8445): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+12-06 20:13:50.084 I/art     ( 8465): Explicit concurrent mark sweep GC freed 9271(526KB) AllocSpace objects, 2(32KB) LOS objects, 24% free, 6MB/8MB, paused 373us total 29.421ms
+12-06 20:13:50.097 V/AlarmManager( 3096): dgt,com.google.android.gms set alarm type:2
+12-06 20:13:50.265 D/AndroidRuntime( 8667): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:50.268 D/AndroidRuntime( 8667): CheckJNI is OFF
+12-06 20:13:50.297 E/cutils-trace( 8667): Error opening trace file: Permission denied (13)
+12-06 20:13:50.359 D/AndroidRuntime( 8667): Calling main entry com.android.commands.ime.Ime
+12-06 20:13:50.379 D/AndroidRuntime( 8667): Shutting down VM
+12-06 20:13:50.402 I/art     ( 8680): Late-enabling -Xcheck:jni
+12-06 20:13:50.403 I/ActivityManager( 3096): Start proc 8680:io.appium.android.ime/u0a59 for service io.appium.android.ime/.UnicodeIME
+12-06 20:13:50.403 V/InputMethodManagerService( 3096): Adding window token: android.os.Binder@2a2adc54
+12-06 20:13:50.398 I/JDWP    ( 8690): type=1400 audit(0.0:71): avc: denied { connectto } for path=006A6477702D636F6E74726F6C scontext=u:r:untrusted_app:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=1
+12-06 20:13:50.458 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:13:50.974 D/AndroidRuntime( 8701): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:50.977 D/AndroidRuntime( 8701): CheckJNI is OFF
+12-06 20:13:51.005 E/cutils-trace( 8701): Error opening trace file: Permission denied (13)
+12-06 20:13:51.067 D/AndroidRuntime( 8701): Calling main entry com.android.commands.pm.Pm
+12-06 20:13:51.072 I/PackageManager( 3096): init_copy idx=0: InstallParams{6239f43 file=/data/local/tmp/settings_apk-debug.apk cid=null}
+12-06 20:13:51.072 I/PackageManager( 3096): mcs_bound
+12-06 20:13:51.072 I/PackageManager( 3096): startCopy UserHandle{-1}: InstallParams{6239f43 file=/data/local/tmp/settings_apk-debug.apk cid=null}
+12-06 20:13:51.078 D/DefContainer( 8356): Copying /data/local/tmp/settings_apk-debug.apk to base.apk
+12-06 20:13:51.082 D/PackageManager( 3096): installPackageLI: path=/data/app/vmdl1843821808.tmpjava.lang.Throwable
+12-06 20:13:51.082 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService.installPackageLI(PackageManagerService.java:10758)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService.access$2300(PackageManagerService.java:237)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService$6.run(PackageManagerService.java:8849)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at android.os.Handler.handleCallback(Handler.java:739)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at android.os.Looper.loop(Looper.java:135)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-06 20:13:51.082 D/PackageManager( 3096): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+12-06 20:13:51.084 I/PackageParser( 3096): io.appium.settings: compat added android.permission.WRITE_EXTERNAL_STORAGE
+12-06 20:13:51.093 D/PackageManager( 3096): manifestDigest was not present, but parser got: ManifestDigest {mDigest=d2,4d,d9,e2,d0,a4,33,1d,4a,61,58,aa,69,fe,22,8d,c7,d0,34,06,82,67,8d,fd,52,6b,b8,05,d2,0f,72,e0,}
+12-06 20:13:51.093 D/PackageManager( 3096): Renaming /data/app/vmdl1843821808.tmp to /data/app/io.appium.settings-1
+12-06 20:13:51.094 D/PackageManager( 3096): installNewPackageLI: Package{33e1384a io.appium.settings}
+12-06 20:13:51.104 I/PackageManager( 3096): Linking native library dir for /data/app/io.appium.settings-1
+12-06 20:13:51.104 I/PackageManager( 3096): Running dexopt on: /data/app/io.appium.settings-1/base.apk pkg=io.appium.settings isa=arm vmSafeMode=false
+12-06 20:13:51.123 E/cutils-trace( 8713): Error opening trace file: Permission denied (13)
+12-06 20:13:51.123 I/dex2oat ( 8713): /system/bin/dex2oat --zip-fd=6 --zip-location=/data/app/io.appium.settings-1/base.apk --oat-fd=7 --oat-location=/data/dalvik-cache/arm/data@app@io.appium.settings-1@base.apk@classes.dex --instruction-set=arm --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=10
+12-06 20:13:51.129 I/dex2oat ( 8713): Decided to run without swap.
+12-06 20:13:51.159 I/dex2oat ( 8713): dex2oat took 35.817ms (threads: 4) arena alloc=152KB java alloc=18KB native alloc=1151KB free=28KB
+12-06 20:13:51.189 D/PackageManager( 3096): New package installed in /data/app/io.appium.settings-1
+12-06 20:13:51.189 W/PackageManager( 3096): Not granting permission android.permission.UPDATE_DEVICE_STATS to package io.appium.settings (protectionLevel=18 flags=0x8446)
+12-06 20:13:51.189 W/PackageManager( 3096): Not granting permission android.permission.MODIFY_PHONE_STATE to package io.appium.settings (protectionLevel=18 flags=0x8446)
+12-06 20:13:51.189 W/PackageManager( 3096): Not granting permission android.permission.WRITE_SECURE_SETTINGS to package io.appium.settings (protectionLevel=50 flags=0x8446)
+12-06 20:13:51.239 V/PackageManager( 3096): + starting restore round-trip 3
+12-06 20:13:51.239 V/PackageManager( 3096): token 3 to BM for possible restore
+12-06 20:13:51.239 V/BackupManagerService( 3096): restoreAtInstall pkg=io.appium.settings token=3 restoreSet=0
+12-06 20:13:51.239 V/BackupManagerService( 3096): Finishing install immediately
+12-06 20:13:51.239 V/PackageManager( 3096): BM finishing package install for 3
+12-06 20:13:51.239 V/PackageManager( 3096): Handling post-install for 3
+12-06 20:13:51.240 W/Settings( 3096): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+12-06 20:13:51.247 I/InputReader( 3096): Reconfiguring input devices.  changes=0x00000010
+12-06 20:13:51.253 D/apps    ( 7177): apps.size()=18
+12-06 20:13:51.253 W/PackageManager( 7177): Failure retrieving resources for com.android.gallery3d: Resource ID #0x0
+12-06 20:13:51.257 W/PackageManager( 7177): Failure retrieving resources for com.android.tv.settings: Resource ID #0x0
+12-06 20:13:51.258 W/PackageManager( 7177): Failure retrieving resources for com.android.vending: Resource ID #0x0
+12-06 20:13:51.260 W/PackageManager( 7177): Failure retrieving resources for com.android.browser: Resource ID #0x0
+12-06 20:13:51.262 I/ConfigFetchService( 8445): PackageReceiver: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.settings flg=0x4000010 cmp=com.google.android.gms/.config.ConfigFetchService$PackageReceiver (has extras) }
+12-06 20:13:51.263 W/PackageManager( 7177): Failure retrieving resources for org.coolx.htvlauncher: Resource ID #0x0
+12-06 20:13:51.265 W/PackageManager( 7177): Failure retrieving resources for com.android.music: Resource ID #0x0
+12-06 20:13:51.269 D/BackupManagerService( 3096): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.settings flg=0x4000010 (has extras) }
+12-06 20:13:51.270 W/BackupManagerService( 3096): Removing schedule queue dupe of io.appium.settings
+12-06 20:13:51.272 W/PackageManager( 7177): Failure retrieving resources for com.google.android.youtube.tv: Resource ID #0x0
+12-06 20:13:51.275 I/ConfigService( 8465): onCreate
+12-06 20:13:51.278 I/ConfigService( 8465): onBind for Intent { act=com.google.android.gms.config.UPDATE pkg=com.google.android.gms } action com.google.android.gms.config.UPDATE
+12-06 20:13:51.280 W/PackageManager( 7177): Failure retrieving resources for com.swl.kclauncher: Resource ID #0x0
+12-06 20:13:51.282 I/ConfigService( 8465): onBind returning update interface
+12-06 20:13:51.285 I/ConfigFetchService( 8445): onStartCommand Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.settings cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+12-06 20:13:51.287 I/ConfigService( 8465): onBind for Intent { act=com.google.android.gms.config.START pkg=com.google.android.gms } action com.google.android.gms.config.START
+12-06 20:13:51.287 I/ConfigService( 8465): onBind returning config service
+12-06 20:13:51.290 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.mediacenter: Resource ID #0x0
+12-06 20:13:51.295 W/PackageManager( 7177): Failure retrieving resources for com.mbx.clearservice: Resource ID #0x0
+12-06 20:13:51.296 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.FileBrower: Resource ID #0x0
+12-06 20:13:51.297 W/PackageManager( 7177): Failure retrieving resources for com.swl.market: Resource ID #0x0
+12-06 20:13:51.298 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.miracast: Resource ID #0x0
+12-06 20:13:51.301 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.PPPoE: Resource ID #0x0
+12-06 20:13:51.302 W/Searchables( 3096): No global search activity found
+12-06 20:13:51.303 W/VoiceInteractionManagerService( 3096): no available voice recognition services found for user 0
+12-06 20:13:51.304 W/PackageManager( 7177): Failure retrieving resources for swl.app.Upgrade: Resource ID #0x0
+12-06 20:13:51.306 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.videoplayer: Resource ID #0x0
+12-06 20:13:51.308 W/PackageManager( 7177): Failure retrieving resources for io.appium.settings: Resource ID #0x0
+12-06 20:13:51.337 I/art     ( 3096): Explicit concurrent mark sweep GC freed 22840(1472KB) AllocSpace objects, 7(112KB) LOS objects, 33% free, 11MB/16MB, paused 1.348ms total 96.479ms
+12-06 20:13:51.338 I/art     ( 3096): WaitForGcToComplete blocked for 45.789ms for cause Explicit
+12-06 20:13:51.339 I/art     ( 8701): System.exit called, status: 0
+12-06 20:13:51.339 I/AndroidRuntime( 8701): VM exiting with result code 0.
+12-06 20:13:51.410 I/art     ( 3096): Explicit concurrent mark sweep GC freed 1445(67KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 10MB/16MB, paused 1.293ms total 71.412ms
+12-06 20:13:51.411 I/ConfigFetchService( 8445): launchTask
+12-06 20:13:51.413 I/ConfigFetchService( 8445): service connected
+12-06 20:13:51.413 I/ConfigClient( 8445): service connected
+12-06 20:13:51.415 W/ConfigFetchTask( 8445): no android id
+12-06 20:13:51.415 E/ConfigFetchTask( 8445): failed to build request; aborting config fetch
+12-06 20:13:51.415 I/ConfigFetchService( 8445): fetch service done; releasing wakelock
+12-06 20:13:51.418 I/ConfigFetchService( 8445): stopping self
+12-06 20:13:51.423 V/AlarmManager( 3096): dgt,com.android.vending set alarm type:0
+12-06 20:13:51.424 D/PackageBroadcastService( 8445): Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=io.appium.settings
+12-06 20:13:51.432 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:51.432 I/ConfigService( 8465): onDestroy
+12-06 20:13:51.433 D/Utils   ( 7177): load string is com.swl.kclauncher;io.appium.android.ime;
+12-06 20:13:51.433 D/Utils   ( 7177): CustomApp Size: 2 / 	[com.swl.kclauncher, io.appium.android.ime]
+12-06 20:13:51.433 D/Utils   ( 7177): path==/data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:51.434 D/Utils   ( 7177): 写入应用：com.swl.kclauncher
+12-06 20:13:51.434 D/Utils   ( 7177): 写入应用：io.appium.android.ime
+12-06 20:13:51.434 D/Utils   ( 7177): 写入应用：io.appium.settings
+12-06 20:13:51.434 D/Utils   ( 7177): 写入应用完成
+12-06 20:13:51.438 D/sven    ( 7177): 添加到炫版分类 Appium Settings
+12-06 20:13:51.441 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:51.442 D/Utils   ( 7177): load string is com.swl.kclauncher;io.appium.android.ime;io.appium.settings;
+12-06 20:13:51.442 D/Utils   ( 7177): CustomApp Size: 3 / 	[com.swl.kclauncher, io.appium.android.ime, io.appium.settings]
+12-06 20:13:51.447 D/Finsky  ( 8508): [1] ExternalReferrer.access$200: Package state data is missing for io.appium.settings
+12-06 20:13:51.448 I/PeopleContactsSync( 8445): CP2 sync disabled
+12-06 20:13:51.450 W/PackageManager( 7177): Failure retrieving resources for com.android.gallery3d: Resource ID #0x0
+12-06 20:13:51.454 W/PackageManager( 7177): Failure retrieving resources for com.android.tv.settings: Resource ID #0x0
+12-06 20:13:51.457 W/PackageManager( 7177): Failure retrieving resources for com.android.vending: Resource ID #0x0
+12-06 20:13:51.460 W/PackageManager( 7177): Failure retrieving resources for com.android.browser: Resource ID #0x0
+12-06 20:13:51.464 W/PackageManager( 7177): Failure retrieving resources for org.coolx.htvlauncher: Resource ID #0x0
+12-06 20:13:51.466 W/PackageManager( 7177): Failure retrieving resources for com.android.music: Resource ID #0x0
+12-06 20:13:51.467 W/PackageManager( 7177): Failure retrieving resources for com.google.android.youtube.tv: Resource ID #0x0
+12-06 20:13:51.470 W/PackageManager( 7177): Failure retrieving resources for com.swl.kclauncher: Resource ID #0x0
+12-06 20:13:51.472 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.mediacenter: Resource ID #0x0
+12-06 20:13:51.473 W/PackageManager( 7177): Failure retrieving resources for com.mbx.clearservice: Resource ID #0x0
+12-06 20:13:51.474 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.FileBrower: Resource ID #0x0
+12-06 20:13:51.474 W/PackageManager( 7177): Failure retrieving resources for com.swl.market: Resource ID #0x0
+12-06 20:13:51.477 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.miracast: Resource ID #0x0
+12-06 20:13:51.478 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.PPPoE: Resource ID #0x0
+12-06 20:13:51.479 W/PackageManager( 7177): Failure retrieving resources for swl.app.Upgrade: Resource ID #0x0
+12-06 20:13:51.481 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.videoplayer: Resource ID #0x0
+12-06 20:13:51.482 W/PackageManager( 7177): Failure retrieving resources for io.appium.settings: Resource ID #0x0
+12-06 20:13:51.491 I/homer   ( 8621): 安装了 :package:io.appium.settings
+12-06 20:13:51.509 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/tv_apps.cfg
+12-06 20:13:51.509 D/Utils   ( 7177): -----mExistsApps: 0
+12-06 20:13:51.509 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/demand_apps.cfg
+12-06 20:13:51.510 D/Utils   ( 7177): load string is com.swl.kclauncher;
+12-06 20:13:51.510 D/Utils   ( 7177): CustomApp Size: 1 / 	[com.swl.kclauncher]
+12-06 20:13:51.513 D/xx      ( 7177): 静态广播收到 安装 Appium Settings
+12-06 20:13:51.534 D/xx      ( 7177): 第三方应用  Appium Settings
+12-06 20:13:51.710 D/AndroidRuntime( 8736): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:51.713 D/AndroidRuntime( 8736): CheckJNI is OFF
+12-06 20:13:51.741 E/cutils-trace( 8736): Error opening trace file: Permission denied (13)
+12-06 20:13:51.803 D/AndroidRuntime( 8736): Calling main entry com.android.commands.pm.Pm
+12-06 20:13:51.808 I/PackageManager( 3096): init_copy idx=0: InstallParams{2e3b4b5a file=/data/local/tmp/unlock_apk-debug.apk cid=null}
+12-06 20:13:51.808 I/PackageManager( 3096): mcs_bound
+12-06 20:13:51.808 I/PackageManager( 3096): startCopy UserHandle{-1}: InstallParams{2e3b4b5a file=/data/local/tmp/unlock_apk-debug.apk cid=null}
+12-06 20:13:51.813 D/DefContainer( 8356): Copying /data/local/tmp/unlock_apk-debug.apk to base.apk
+12-06 20:13:51.816 D/PackageManager( 3096): installPackageLI: path=/data/app/vmdl1760125100.tmpjava.lang.Throwable
+12-06 20:13:51.816 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService.installPackageLI(PackageManagerService.java:10758)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService.access$2300(PackageManagerService.java:237)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at com.android.server.pm.PackageManagerService$6.run(PackageManagerService.java:8849)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at android.os.Handler.handleCallback(Handler.java:739)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at android.os.Looper.loop(Looper.java:135)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-06 20:13:51.816 D/PackageManager( 3096): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+12-06 20:13:51.818 I/PackageParser( 3096): io.appium.unlock: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+12-06 20:13:51.827 D/PackageManager( 3096): manifestDigest was not present, but parser got: ManifestDigest {mDigest=2a,89,67,37,30,8c,50,77,41,b5,34,4c,b5,69,57,23,f6,ff,a5,a2,68,f0,eb,e8,fb,46,45,ad,5a,56,86,c6,}
+12-06 20:13:51.827 D/PackageManager( 3096): Renaming /data/app/vmdl1760125100.tmp to /data/app/io.appium.unlock-1
+12-06 20:13:51.828 D/PackageManager( 3096): installNewPackageLI: Package{36e609bd io.appium.unlock}
+12-06 20:13:51.843 I/PackageManager( 3096): Linking native library dir for /data/app/io.appium.unlock-1
+12-06 20:13:51.843 I/PackageManager( 3096): Running dexopt on: /data/app/io.appium.unlock-1/base.apk pkg=io.appium.unlock isa=arm vmSafeMode=false
+12-06 20:13:51.861 E/cutils-trace( 8749): Error opening trace file: Permission denied (13)
+12-06 20:13:51.861 I/dex2oat ( 8749): /system/bin/dex2oat --zip-fd=6 --zip-location=/data/app/io.appium.unlock-1/base.apk --oat-fd=7 --oat-location=/data/dalvik-cache/arm/data@app@io.appium.unlock-1@base.apk@classes.dex --instruction-set=arm --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=10
+12-06 20:13:51.867 I/dex2oat ( 8749): Decided to run without swap.
+12-06 20:13:51.879 I/dex2oat ( 8749): dex2oat took 17.192ms (threads: 4) arena alloc=49KB java alloc=15KB native alloc=612KB free=23KB
+12-06 20:13:51.919 D/PackageManager( 3096): New package installed in /data/app/io.appium.unlock-1
+12-06 20:13:51.969 V/PackageManager( 3096): + starting restore round-trip 4
+12-06 20:13:51.969 V/PackageManager( 3096): token 4 to BM for possible restore
+12-06 20:13:51.969 V/BackupManagerService( 3096): restoreAtInstall pkg=io.appium.unlock token=4 restoreSet=0
+12-06 20:13:51.969 V/BackupManagerService( 3096): Finishing install immediately
+12-06 20:13:51.969 V/PackageManager( 3096): BM finishing package install for 4
+12-06 20:13:51.969 V/PackageManager( 3096): Handling post-install for 4
+12-06 20:13:51.971 W/Settings( 3096): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+12-06 20:13:51.976 I/InputReader( 3096): Reconfiguring input devices.  changes=0x00000010
+12-06 20:13:51.984 D/apps    ( 7177): apps.size()=19
+12-06 20:13:51.984 W/PackageManager( 7177): Failure retrieving resources for com.android.gallery3d: Resource ID #0x0
+12-06 20:13:51.989 W/PackageManager( 7177): Failure retrieving resources for com.android.tv.settings: Resource ID #0x0
+12-06 20:13:51.990 D/BackupManagerService( 3096): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.unlock flg=0x4000010 (has extras) }
+12-06 20:13:51.990 W/BackupManagerService( 3096): Removing schedule queue dupe of io.appium.unlock
+12-06 20:13:51.991 W/PackageManager( 7177): Failure retrieving resources for com.android.vending: Resource ID #0x0
+12-06 20:13:51.992 I/ConfigFetchService( 8445): PackageReceiver: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.unlock flg=0x4000010 cmp=com.google.android.gms/.config.ConfigFetchService$PackageReceiver (has extras) }
+12-06 20:13:51.999 W/PackageManager( 7177): Failure retrieving resources for com.android.browser: Resource ID #0x0
+12-06 20:13:52.003 I/ConfigService( 8465): onCreate
+12-06 20:13:52.003 W/PackageManager( 7177): Failure retrieving resources for org.coolx.htvlauncher: Resource ID #0x0
+12-06 20:13:52.003 I/ConfigService( 8465): onBind for Intent { act=com.google.android.gms.config.UPDATE pkg=com.google.android.gms } action com.google.android.gms.config.UPDATE
+12-06 20:13:52.004 W/PackageManager( 7177): Failure retrieving resources for com.android.music: Resource ID #0x0
+12-06 20:13:52.007 I/ConfigFetchService( 8445): onStartCommand Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.appium.unlock cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+12-06 20:13:52.011 I/ConfigService( 8465): onBind returning update interface
+12-06 20:13:52.012 I/ConfigFetchService( 8445): launchTask
+12-06 20:13:52.012 I/ConfigService( 8465): onBind for Intent { act=com.google.android.gms.config.START pkg=com.google.android.gms } action com.google.android.gms.config.START
+12-06 20:13:52.012 I/ConfigService( 8465): onBind returning config service
+12-06 20:13:52.013 W/PackageManager( 7177): Failure retrieving resources for com.google.android.youtube.tv: Resource ID #0x0
+12-06 20:13:52.014 W/ConfigFetchTask( 8445): no android id
+12-06 20:13:52.014 E/ConfigFetchTask( 8445): failed to build request; aborting config fetch
+12-06 20:13:52.014 W/PackageManager( 7177): Failure retrieving resources for com.swl.kclauncher: Resource ID #0x0
+12-06 20:13:52.015 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.mediacenter: Resource ID #0x0
+12-06 20:13:52.016 W/PackageManager( 7177): Failure retrieving resources for com.mbx.clearservice: Resource ID #0x0
+12-06 20:13:52.017 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.FileBrower: Resource ID #0x0
+12-06 20:13:52.017 W/PackageManager( 7177): Failure retrieving resources for com.swl.market: Resource ID #0x0
+12-06 20:13:52.018 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.miracast: Resource ID #0x0
+12-06 20:13:52.019 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.PPPoE: Resource ID #0x0
+12-06 20:13:52.021 W/PackageManager( 7177): Failure retrieving resources for swl.app.Upgrade: Resource ID #0x0
+12-06 20:13:52.024 W/Searchables( 3096): No global search activity found
+12-06 20:13:52.025 I/ConfigFetchService( 8445): service connected
+12-06 20:13:52.025 I/ConfigClient( 8445): service connected
+12-06 20:13:52.025 W/VoiceInteractionManagerService( 3096): no available voice recognition services found for user 0
+12-06 20:13:52.025 I/ConfigFetchService( 8445): fetch service done; releasing wakelock
+12-06 20:13:52.025 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.videoplayer: Resource ID #0x0
+12-06 20:13:52.025 I/ConfigFetchService( 8445): stopping self
+12-06 20:13:52.030 W/PackageManager( 7177): Failure retrieving resources for io.appium.settings: Resource ID #0x0
+12-06 20:13:52.036 W/PackageManager( 7177): Failure retrieving resources for io.appium.unlock: Resource ID #0x0
+12-06 20:13:52.039 I/ConfigService( 8465): onDestroy
+12-06 20:13:52.040 V/AlarmManager( 3096): dgt,com.android.vending set alarm type:0
+12-06 20:13:52.043 D/PackageBroadcastService( 8445): Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=io.appium.unlock
+12-06 20:13:52.053 D/Finsky  ( 8508): [1] ExternalReferrer.access$200: Package state data is missing for io.appium.unlock
+12-06 20:13:52.062 I/PeopleContactsSync( 8445): CP2 sync disabled
+12-06 20:13:52.069 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/tv_apps.cfg
+12-06 20:13:52.069 D/Utils   ( 7177): -----mExistsApps: 0
+12-06 20:13:52.069 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/demand_apps.cfg
+12-06 20:13:52.069 D/Utils   ( 7177): load string is com.swl.kclauncher;
+12-06 20:13:52.069 D/Utils   ( 7177): CustomApp Size: 1 / 	[com.swl.kclauncher]
+12-06 20:13:52.070 I/homer   ( 8621): 安装了 :package:io.appium.unlock
+12-06 20:13:52.074 D/xx      ( 7177): 静态广播收到 安装 Unlock
+12-06 20:13:52.085 I/art     ( 3096): Explicit concurrent mark sweep GC freed 13051(1001KB) AllocSpace objects, 7(112KB) LOS objects, 33% free, 11MB/16MB, paused 1.145ms total 113.833ms
+12-06 20:13:52.086 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:52.087 D/Utils   ( 7177): load string is com.swl.kclauncher;io.appium.android.ime;io.appium.settings;
+12-06 20:13:52.087 D/Utils   ( 7177): CustomApp Size: 3 / 	[com.swl.kclauncher, io.appium.android.ime, io.appium.settings]
+12-06 20:13:52.087 I/art     ( 8736): System.exit called, status: 0
+12-06 20:13:52.087 D/Utils   ( 7177): path==/data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:52.087 I/AndroidRuntime( 8736): VM exiting with result code 0.
+12-06 20:13:52.087 D/Utils   ( 7177): 写入应用：com.swl.kclauncher
+12-06 20:13:52.087 D/Utils   ( 7177): 写入应用：io.appium.android.ime
+12-06 20:13:52.087 D/Utils   ( 7177): 写入应用：io.appium.settings
+12-06 20:13:52.088 D/Utils   ( 7177): 写入应用：io.appium.unlock
+12-06 20:13:52.088 D/Utils   ( 7177): 写入应用完成
+12-06 20:13:52.090 D/sven    ( 7177): 添加到炫版分类 Unlock
+12-06 20:13:52.091 D/Utils   ( 7177): load custom Apps from file : /data/data/org.coolx.htvlauncher/final_apps.cfg
+12-06 20:13:52.091 D/Utils   ( 7177): load string is com.swl.kclauncher;io.appium.android.ime;io.appium.settings;io.appium.unlock;
+12-06 20:13:52.091 D/xx      ( 7177): 第三方应用  Unlock
+12-06 20:13:52.091 D/Utils   ( 7177): CustomApp Size: 4 / 	[com.swl.kclauncher, io.appium.android.ime, io.appium.settings, io.appium.unlock]
+12-06 20:13:52.099 W/PackageManager( 7177): Failure retrieving resources for com.android.gallery3d: Resource ID #0x0
+12-06 20:13:52.100 W/PackageManager( 7177): Failure retrieving resources for com.android.tv.settings: Resource ID #0x0
+12-06 20:13:52.100 W/PackageManager( 7177): Failure retrieving resources for com.android.vending: Resource ID #0x0
+12-06 20:13:52.101 W/PackageManager( 7177): Failure retrieving resources for com.android.browser: Resource ID #0x0
+12-06 20:13:52.102 W/PackageManager( 7177): Failure retrieving resources for org.coolx.htvlauncher: Resource ID #0x0
+12-06 20:13:52.102 W/PackageManager( 7177): Failure retrieving resources for com.android.music: Resource ID #0x0
+12-06 20:13:52.103 W/PackageManager( 7177): Failure retrieving resources for com.google.android.youtube.tv: Resource ID #0x0
+12-06 20:13:52.104 W/PackageManager( 7177): Failure retrieving resources for com.swl.kclauncher: Resource ID #0x0
+12-06 20:13:52.104 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.mediacenter: Resource ID #0x0
+12-06 20:13:52.109 W/PackageManager( 7177): Failure retrieving resources for com.mbx.clearservice: Resource ID #0x0
+12-06 20:13:52.109 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.FileBrower: Resource ID #0x0
+12-06 20:13:52.111 W/PackageManager( 7177): Failure retrieving resources for com.swl.market: Resource ID #0x0
+12-06 20:13:52.111 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.miracast: Resource ID #0x0
+12-06 20:13:52.112 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.PPPoE: Resource ID #0x0
+12-06 20:13:52.113 W/PackageManager( 7177): Failure retrieving resources for swl.app.Upgrade: Resource ID #0x0
+12-06 20:13:52.113 W/PackageManager( 7177): Failure retrieving resources for com.droidlogic.videoplayer: Resource ID #0x0
+12-06 20:13:52.115 W/PackageManager( 7177): Failure retrieving resources for io.appium.settings: Resource ID #0x0
+12-06 20:13:52.115 W/PackageManager( 7177): Failure retrieving resources for io.appium.unlock: Resource ID #0x0
+12-06 20:13:52.406 D/AndroidRuntime( 8772): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:52.408 D/AndroidRuntime( 8772): CheckJNI is OFF
+12-06 20:13:52.556 E/cutils-trace( 8772): Error opening trace file: Permission denied (13)
+12-06 20:13:52.636 D/AndroidRuntime( 8772): Calling main entry com.android.commands.uiautomator.Launcher
+12-06 20:13:52.638 I/adbd    ( 5638): type=1400 audit(0.0:72): avc: denied { read write } for name="ep0" dev="functionfs" ino=14506 scontext=u:r:shell:s0 tcontext=u:object_r:functionfs:s0 tclass=file permissive=1
+12-06 20:13:52.638 I/adbd    ( 5638): type=1400 audit(0.0:73): avc: denied { open } for path="/dev/usb-ffs/adb/ep0" dev="functionfs" ino=14506 scontext=u:r:shell:s0 tcontext=u:object_r:functionfs:s0 tclass=file permissive=1
+12-06 20:13:52.830 I/UiWatchers( 8772): Registed GUI Exception watchers
+12-06 20:13:53.371 D/AndroidRuntime( 8792): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-06 20:13:53.374 D/AndroidRuntime( 8792): CheckJNI is OFF
+12-06 20:13:53.413 E/cutils-trace( 8792): Error opening trace file: Permission denied (13)
+12-06 20:13:53.480 D/AndroidRuntime( 8792): Calling main entry com.android.commands.am.Am
+12-06 20:13:53.489 I/ActivityManager( 3096): Force stopping com.swl.kclauncher appid=10058 user=0: from pid 8792
+12-06 20:13:53.741 I/ActivityManager( 3096): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.swl.kclauncher/.ui.WelcomeActivity} from uid 2000 on display 0
+12-06 20:13:53.745 V/WindowManager( 3096): addAppToken: AppWindowToken{25d8614b token=Token{1558e21a ActivityRecord{10e0b8c5 u0 com.swl.kclauncher/.ui.WelcomeActivity t10}}} to stack=0 task=10 at 0
+12-06 20:13:53.747 D/AndroidRuntime( 8792): Shutting down VM
+12-06 20:13:53.750 V/WindowManager( 3096): Adding window Window{36c1ddd4 u0 Starting com.swl.kclauncher} at 2 of 3 (after Window{3bfe363b u0 org.coolx.htvlauncher/org.coolx.htvlauncherframework.FinalyActivity})
+12-06 20:13:53.777 I/art     ( 8805): Late-enabling -Xcheck:jni
+12-06 20:13:53.778 I/ActivityManager( 3096): Start proc 8805:com.swl.kclauncher/u0a58 for activity com.swl.kclauncher/.ui.WelcomeActivity
+12-06 20:13:53.794 I/art     ( 2781): Explicit concurrent mark sweep GC freed 711(30KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/6MB, paused 364us total 16.330ms
+12-06 20:13:53.788 I/JDWP    ( 8815): type=1400 audit(0.0:74): avc: denied { connectto } for path=006A6477702D636F6E74726F6C scontext=u:r:platform_app:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=1
+12-06 20:13:53.824 I/art     ( 2781): Explicit concurrent mark sweep GC freed 7(240B) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/6MB, paused 364us total 17.541ms
+12-06 20:13:53.834 I/MultiDex( 8805): VM with version 2.1.0 has multidex support
+12-06 20:13:53.834 I/MultiDex( 8805): install
+12-06 20:13:53.834 I/MultiDex( 8805): VM has multidex support, MultiDex support library is disabled.
+12-06 20:13:53.841 I/art     ( 2781): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 4MB/6MB, paused 325us total 16.658ms
+12-06 20:13:53.872 W/ImageLoader( 8805): diskCache(), diskCacheSize() and diskCacheFileCount calls overlap each other
+12-06 20:13:53.873 W/ImageLoader( 8805): diskCache() and diskCacheFileNameGenerator() calls overlap each other
+12-06 20:13:53.883 D/WifiService( 3096): New client listening to asynchronous messages
+12-06 20:13:53.901 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:53.888 I/.swl.kclauncher( 8805): type=1400 audit(0.0:75): avc: denied { call } for scontext=u:r:platform_app:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+12-06 20:13:53.905 V/adversystem( 8805): get adversinfo ---!
+12-06 20:13:54.064 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.064 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [133]: Accept command is GET_SN  
+12-06 20:13:54.065 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.065 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [296]: Accept command is  TRANSACT_GET_SYSTEM_VERSION  
+12-06 20:13:54.065 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.065 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [233]: Accept command is TRANSACT_GET_CUSTOMER_NAME  
+12-06 20:13:54.082 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.082 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [133]: Accept command is GET_SN  
+12-06 20:13:54.088 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.089 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [133]: Accept command is GET_SN  
+12-06 20:13:54.096 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.096 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [133]: Accept command is GET_SN  
+12-06 20:13:54.109 W/System.err( 8805): java.net.ConnectException: failed to connect to hy.avrtb.com/198.255.66.234 (port 8081) after 5000ms: isConnected failed: ECONNREFUSED (Connection refused)
+12-06 20:13:54.109 W/System.err( 8805): 	at libcore.io.IoBridge.isConnected(IoBridge.java:238)
+12-06 20:13:54.109 W/System.err( 8805): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:171)
+12-06 20:13:54.109 W/System.err( 8805): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+12-06 20:13:54.109 W/System.err( 8805): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+12-06 20:13:54.109 W/System.err( 8805): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+12-06 20:13:54.109 W/System.err( 8805): 	at java.net.Socket.connect(Socket.java:882)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:174)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.Connection.connect(Connection.java:152)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:382)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:106)
+12-06 20:13:54.110 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:217)
+12-06 20:13:54.111 W/System.err( 8805): 	at org.coolx.utils.HttpUtils.doPost(HttpUtils.java:221)
+12-06 20:13:54.111 W/System.err( 8805): 	at org.coox.advertisement.Advertisement.getAdvertConfgInfo(Advertisement.java:155)
+12-06 20:13:54.111 W/System.err( 8805): 	at org.coox.advertisement.Advertisement.access$200(Advertisement.java:43)
+12-06 20:13:54.111 W/System.err( 8805): 	at org.coox.advertisement.Advertisement$1.run(Advertisement.java:127)
+12-06 20:13:54.111 W/System.err( 8805): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+12-06 20:13:54.113 W/System.err( 8805): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+12-06 20:13:54.113 W/System.err( 8805): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+12-06 20:13:54.113 W/System.err( 8805): 	... 17 more
+12-06 20:13:54.114 V/adversystem( 8805): post adversevent info !
+12-06 20:13:54.115 W/linker  ( 8805): libkbmodulejni.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+12-06 20:13:54.116 V/adversystem( 8805): No adverEvent info post server !
+12-06 20:13:54.117 I/KbServer( 8805): [1481094834:117721 JNI_OnLoad::1314]v1.3.10-K
+12-06 20:13:54.144 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:54.144 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [133]: Accept command is GET_SN  
+12-06 20:13:54.155 D/OpenGLRenderer( 8805): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+12-06 20:13:54.159 D/Atlas   ( 8805): Validating map...
+12-06 20:13:54.184 V/WindowManager( 3096): Adding window Window{2b1eb496 u0 com.swl.kclauncher/com.swl.kclauncher.ui.WelcomeActivity} at 2 of 4 (before Window{36c1ddd4 u0 Starting com.swl.kclauncher})
+12-06 20:13:54.223 I/OpenGLRenderer( 8805): Initialized EGL, version 1.4
+12-06 20:13:54.224 D/OpenGLRenderer( 8805): Enabling debug mode 0
+12-06 20:13:54.236 I/AppiumUnicodeIME( 8680): onFinishInput
+12-06 20:13:54.236 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:13:54.251 I/ActivityManager( 3096): Displayed com.swl.kclauncher/.ui.WelcomeActivity: +500ms
+12-06 20:13:55.148 I/ActivityManager( 3096): START u0 {cmp=com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity} from uid 10058 on display 0
+12-06 20:13:55.150 V/WindowManager( 3096): addAppToken: AppWindowToken{3fe18be9 token=Token{3543bc70 ActivityRecord{3b1bceb3 u0 com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity t10}}} to stack=0 task=10 at 1
+12-06 20:13:55.181 E/KBPortalProxy( 8805): 缓存不存在
+12-06 20:13:55.181 I/KbServer( 8805): [1481094835:181784 com_kb_kbmodule_kbjnic_nativeregisterauth::452]v1.3.10-K
+12-06 20:13:55.183 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [111] 
+12-06 20:13:55.183 I/HelloWorld( 2758): [virtual android::status_t SwBinderServer::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)] [133]: Accept command is GET_SN  
+12-06 20:13:55.183 I/KbJniC  ( 8805): [AAA_Authentication::149]Libversion:v1.3.10-K
+12-06 20:13:55.271 V/WindowManager( 3096): Adding window Window{10faa30f u0 com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity} at 3 of 4 (after Window{2b1eb496 u0 com.swl.kclauncher/com.swl.kclauncher.ui.WelcomeActivity})
+12-06 20:13:55.465 I/AppiumUnicodeIME( 8680): onFinishInput
+12-06 20:13:55.466 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:13:55.479 I/ActivityManager( 3096): Displayed com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity: +326ms
+12-06 20:13:55.704 E/KBPortalImple( 8805): 注册3a用时==523
+12-06 20:13:55.821 E/KBPortalProxy( 8805): 主默认地址注册  true
+12-06 20:13:55.821 E/UserAuthHelper( 8805): 3A注册执行完成
+12-06 20:13:55.821 D/UserAuthHelper( 8805): 注册成功，开始获取节目单:
+12-06 20:13:57.494 D/LauncherCategoryDataManger( 8805): 分类请求成功
+12-06 20:13:59.148 I/AppiumUnicodeIME( 8680): onKeyDown (keyCode='23', event.keyCode='23', metaState='0')
+12-06 20:13:59.316 I/AppiumUnicodeIME( 8680): onKeyUp (keyCode='23', event.keyCode='23', metaState='0')
+12-06 20:14:00.380 I/AppiumUnicodeIME( 8680): onKeyDown (keyCode='20', event.keyCode='20', metaState='0')
+12-06 20:14:00.734 I/AppiumUnicodeIME( 8680): onKeyUp (keyCode='20', event.keyCode='20', metaState='0')
+12-06 20:14:00.821 I/AppiumUnicodeIME( 8680): onKeyDown (keyCode='19', event.keyCode='19', metaState='0')
+12-06 20:14:00.996 I/AppiumUnicodeIME( 8680): onKeyUp (keyCode='19', event.keyCode='19', metaState='0')
+12-06 20:14:01.127 I/AppiumUnicodeIME( 8680): onKeyDown (keyCode='23', event.keyCode='23', metaState='0')
+12-06 20:14:01.296 I/AppiumUnicodeIME( 8680): onKeyUp (keyCode='23', event.keyCode='23', metaState='0')
+12-06 20:14:01.848 I/PackageManager( 3096): mcs_unbind
+12-06 20:14:01.848 I/PackageManager( 3096): calling disconnectService()
+12-06 20:14:04.925 I/ActivityManager( 3096): Waited long enough for: ServiceRecord{1ba6b0de u0 com.google.android.gms/.gcm.GcmService}
+12-06 20:14:06.239 D/ActivityManager( 3096): Storing locale zh-CN for decryption UI
+12-06 20:14:06.242 I/ActivityManager( 3096): Config changes=2004 {1.3 ?mcc?mnc zh_CN ldltr sw720dp w1280dp h694dp 240dpi xlrg long land television -touch -keyb/v/h dpad/v s.8}
+12-06 20:14:06.328 I/ActivityManager( 3096): START u0 {cmp=com.swl.kclauncher/com.swl.launcher.ui.TimeZoneActivity} from uid 10058 on display 0
+12-06 20:14:06.333 V/WindowManager( 3096): addAppToken: AppWindowToken{1948d634 token=Token{3669e507 ActivityRecord{2d8b6f46 u0 com.swl.kclauncher/com.swl.launcher.ui.TimeZoneActivity t10}}} to stack=0 task=10 at 1
+12-06 20:14:06.398 D/Finsky  ( 8508): [1] ClearCacheReceiver.onReceive: Received android.intent.action.LOCALE_CHANGED. Clearing cache and exiting.
+12-06 20:14:06.465 I/ActivityManager( 3096): Start proc 8879:com.android.deskclock/u0a24 for broadcast com.android.deskclock/.AlarmInitReceiver
+12-06 20:14:06.473 V/WindowManager( 3096): Adding window Window{28e83464 u0 com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity} at 2 of 3 (after Window{3bfe363b u0 org.coolx.htvlauncher/org.coolx.htvlauncherframework.FinalyActivity})
+12-06 20:14:06.477 I/WindowManager( 3096): Screen frozen for +227ms due to AppWindowToken{3fe18be9 token=Token{3543bc70 ActivityRecord{3b1bceb3 u0 com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity t10}}}
+12-06 20:14:06.491 D/Volley  ( 8508): [760] DiskBasedCache.clear: Cache cleared.
+12-06 20:14:06.600 I/ActivityManager( 3096): Start proc 8898:com.android.inputmethod.latin/u0a34 for broadcast com.android.inputmethod.latin/.SystemBroadcastReceiver
+12-06 20:14:06.641 D/Volley  ( 8508): [753] DiskBasedCache.clear: Cache cleared.
+12-06 20:14:06.642 I/art     ( 8508): System.exit called, status: 0
+12-06 20:14:06.642 I/AndroidRuntime( 8508): VM exiting with result code 0, cleanup skipped.
+12-06 20:14:06.660 I/SystemBroadcastReceiver( 8898): System locale changed
+12-06 20:14:06.669 I/SystemBroadcastReceiver( 8898): Killing my process: pid=8898
+12-06 20:14:06.669 I/Process ( 8898): Sending signal. PID: 8898 SIG: 9
+12-06 20:14:06.689 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:14:06.728 I/PeopleDatabaseHelper( 8445): Updating DB locale: en_US -> zh_CN
+12-06 20:14:06.738 I/ContactLocale( 8380): AddressBook Labels [zh-CN]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Ї, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+12-06 20:14:06.754 V/WindowManager( 3096): Adding window Window{1a9f32c9 u0 com.swl.kclauncher/com.swl.launcher.ui.TimeZoneActivity} at 3 of 4 (after Window{28e83464 u0 com.swl.kclauncher/com.swl.launcher.ui.LanguageActivity})
+12-06 20:14:06.759 I/ActivityManager( 3096): Process com.android.inputmethod.latin (pid 8898) has died
+12-06 20:14:06.763 I/ActivityManager( 3096): Process com.android.vending (pid 8508) has died
+12-06 20:14:06.797 I/ActivityManager( 3096): Start proc 8916:com.google.android.youtube.tv/u0a52 for broadcast com.google.android.youtube.tv/com.google.android.apps.youtube.tv.fork.system.LocaleUpdatedReceiver
+12-06 20:14:06.839 I/ContactsProvider( 8380): Locale has changed from en-US;zh-CN to zh-CN
+12-06 20:14:06.855 I/ActivityManager( 3096): Displayed com.swl.kclauncher/com.swl.launcher.ui.TimeZoneActivity: +375ms
+12-06 20:14:06.857 E/QueryController( 8772): Got null root node from accessibility - Retrying...
+12-06 20:14:06.858 I/AppiumUnicodeIME( 8680): onFinishInput
+12-06 20:14:06.861 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:14:06.871 I/ContactsDatabaseHelper( 8380): Switching to locale zh-CN (ICU v53.1.0.1)
+12-06 20:14:06.915 I/PeopleSearchIndexManage( 8445): Marking for index update.
+12-06 20:14:06.932 W/ActivityManager( 3096): getRunningAppProcesses: caller 10052 does not hold REAL_GET_TASKS; limiting output
+12-06 20:14:06.949 W/ResourcesManager( 8916): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+12-06 20:14:06.972 I/PeopleDatabaseHelper( 8445): cleanUpNonGplusAccounts done.
+12-06 20:14:06.973 I/PeopleSearchIndexManage( 8445): Index version changed from 0
+12-06 20:14:06.986 I/PeopleSearchIndexManage( 8445): Rebuilding index...
+12-06 20:14:06.990 V/JNIHelp ( 8916): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 235 native methods...
+12-06 20:14:07.026 I/PeopleASM( 8445): Rebuilding autocomplete index...
+12-06 20:14:07.033 I/PeopleSearchIndexManage( 8445): Rebuilding index done.
+12-06 20:14:07.041 E/Vold    ( 2754): Failed to find mounted volume for /storage/sdcard1/Android/data/com.google.android.youtube.tv/cache/
+12-06 20:14:07.041 W/Vold    ( 2754): Returning OperationFailed - no handler for errno 0
+12-06 20:14:07.042 I/ContactsDatabaseHelper( 8380): Locale change completed in 171ms
+12-06 20:14:07.042 W/ContextImpl( 8916): Failed to ensure directory: /storage/sdcard1/Android/data/com.google.android.youtube.tv/cache
+12-06 20:14:07.043 I/ContactsDatabaseHelper( 8380): Switching to locale zh-CN (ICU v53.1.0.1)
+12-06 20:14:07.072 I/ActivityManager( 3096): Start proc 8943:com.android.vending/u0a17 for service com.android.vending/com.google.android.finsky.services.ContentSyncService
+12-06 20:14:07.111 I/ContactsDatabaseHelper( 8380): Locale change completed in 68ms
+12-06 20:14:07.113 I/ProviderInstaller( 8916): Installed default security provider GmsCore_OpenSSL
+12-06 20:14:07.142 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.159 I/ContactsFTS( 8380): Rebuild contact search index in 19ms, 0 contacts
+12-06 20:14:07.166 D/Finsky  ( 8943): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+12-06 20:14:07.169 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.204 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.205 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.210 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.211 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.215 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.217 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.219 D/Finsky  ( 8943): [1] DailyHygiene.goMakeHygieneIfDirty: No need to run daily hygiene.
+12-06 20:14:07.226 W/Settings( 8943): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-06 20:14:07.227 W/Settings( 8943): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-06 20:14:07.238 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.239 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.240 W/Finsky  ( 8943): [1] FinskyApp.getDfeApi: No account configured on this device.
+12-06 20:14:07.245 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.254 D/Ads     ( 8943): Skipping gmscore version check
+12-06 20:14:07.262 W/GooglePlayServicesUtil( 8943): Google Play services out of date.  Requires 8296000 but found 6188836
+12-06 20:14:07.288 E/Vold    ( 2754): Failed to find mounted volume for /storage/sdcard1/Android/data/com.google.android.youtube.tv/cache/
+12-06 20:14:07.288 W/Vold    ( 2754): Returning OperationFailed - no handler for errno 0
+12-06 20:14:07.291 W/ContextImpl( 8916): Failed to ensure directory: /storage/sdcard1/Android/data/com.google.android.youtube.tv/cache
+12-06 20:14:07.297 E/Vold    ( 2754): Failed to find mounted volume for /storage/sdcard1/Android/data/com.google.android.youtube.tv/files/
+12-06 20:14:07.297 W/Vold    ( 2754): Returning OperationFailed - no handler for errno 0
+12-06 20:14:07.299 W/ContextImpl( 8916): Failed to ensure directory: /storage/sdcard1/Android/data/com.google.android.youtube.tv/files
+12-06 20:14:07.299 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.301 E/Vold    ( 2754): Failed to find mounted volume for /storage/sdcard1/Android/data/com.google.android.youtube.tv/files/
+12-06 20:14:07.301 W/Vold    ( 2754): Returning OperationFailed - no handler for errno 0
+12-06 20:14:07.301 W/ContextImpl( 8916): Failed to ensure directory: /storage/sdcard1/Android/data/com.google.android.youtube.tv/files
+12-06 20:14:07.302 W/Finsky  ( 8943): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+12-06 20:14:07.324 V/RenderScript( 8916): 0xab3668b0 Launching thread(s), CPUs 4
+12-06 20:14:07.351 D/Finsky  ( 8943): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+12-06 20:14:07.364 D/Finsky  ( 8943): [1] RestoreTracker.stopServiceIfDone: Restore complete with 0 success and 0 failed.
+12-06 20:14:07.369 D/GCM     ( 8445): COMPAT: Multi user not supported
+12-06 20:14:07.376 D/Finsky  ( 8943): [811] AppStatesReplicator.handleContentSyncResponse: Completed 0 account content syncs with 0 successful.
+12-06 20:14:07.377 D/Finsky  ( 8943): [1] ContentSyncService$5.onFinished: Installation state replication succeeded.
+12-06 20:14:07.386 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:07.387 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:07.388 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:07.391 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:07.392 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:07.392 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:07.396 W/YouTube ( 8916): (unknown) Could not register with GCM: 
+12-06 20:14:07.396 W/YouTube ( 8916): java.io.IOException: AUTHENTICATION_FAILED
+12-06 20:14:07.396 W/YouTube ( 8916): 	at bmu.a(Unknown Source)
+12-06 20:14:07.396 W/YouTube ( 8916): 	at chu.run(SourceFile:57)
+12-06 20:14:07.396 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-06 20:14:07.396 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-06 20:14:07.396 W/YouTube ( 8916): 	at bwo.run(SourceFile:40)
+12-06 20:14:07.396 W/YouTube ( 8916): 	at java.lang.Thread.run(Thread.java:818)
+12-06 20:14:08.544 I/art     ( 3096): Explicit concurrent mark sweep GC freed 16140(847KB) AllocSpace objects, 4(61KB) LOS objects, 33% free, 11MB/16MB, paused 1.746ms total 63.403ms
+12-06 20:14:08.947 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:08.950 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:08.950 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:08.953 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:08.953 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:08.953 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:08.958 W/YouTube ( 8916): (unknown) Could not register with GCM: 
+12-06 20:14:08.958 W/YouTube ( 8916): java.io.IOException: AUTHENTICATION_FAILED
+12-06 20:14:08.958 W/YouTube ( 8916): 	at bmu.a(Unknown Source)
+12-06 20:14:08.958 W/YouTube ( 8916): 	at chu.run(SourceFile:57)
+12-06 20:14:08.958 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-06 20:14:08.958 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-06 20:14:08.958 W/YouTube ( 8916): 	at bwo.run(SourceFile:40)
+12-06 20:14:08.958 W/YouTube ( 8916): 	at java.lang.Thread.run(Thread.java:818)
+12-06 20:14:09.280 I/CheckinService( 8445): Done disabling old GoogleServicesFramework version
+12-06 20:14:11.029 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:11.034 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:11.035 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:11.047 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:11.048 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:11.050 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:11.055 W/YouTube ( 8916): (unknown) Could not register with GCM: 
+12-06 20:14:11.055 W/YouTube ( 8916): java.io.IOException: AUTHENTICATION_FAILED
+12-06 20:14:11.055 W/YouTube ( 8916): 	at bmu.a(Unknown Source)
+12-06 20:14:11.055 W/YouTube ( 8916): 	at chu.run(SourceFile:57)
+12-06 20:14:11.055 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-06 20:14:11.055 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-06 20:14:11.055 W/YouTube ( 8916): 	at bwo.run(SourceFile:40)
+12-06 20:14:11.055 W/YouTube ( 8916): 	at java.lang.Thread.run(Thread.java:818)
+12-06 20:14:12.676 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 7ms
+12-06 20:14:13.241 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 13ms
+12-06 20:14:13.800 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 5ms
+12-06 20:14:14.353 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 5ms
+12-06 20:14:14.902 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 6ms
+12-06 20:14:15.417 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:15.421 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:15.423 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:15.427 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:15.429 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:15.431 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:15.466 W/YouTube ( 8916): (unknown) Could not register with GCM: 
+12-06 20:14:15.466 W/YouTube ( 8916): java.io.IOException: AUTHENTICATION_FAILED
+12-06 20:14:15.466 W/YouTube ( 8916): 	at bmu.a(Unknown Source)
+12-06 20:14:15.466 W/YouTube ( 8916): 	at chu.run(SourceFile:57)
+12-06 20:14:15.466 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-06 20:14:15.466 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-06 20:14:15.466 W/YouTube ( 8916): 	at bwo.run(SourceFile:40)
+12-06 20:14:15.466 W/YouTube ( 8916): 	at java.lang.Thread.run(Thread.java:818)
+12-06 20:14:15.551 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 23ms
+12-06 20:14:16.067 I/AppiumUnicodeIME( 8680): onFinishInput
+12-06 20:14:16.107 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 3ms
+12-06 20:14:16.110 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:14:16.651 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 9ms
+12-06 20:14:16.900 I/ActivityManager( 3096): START u0 {cmp=com.swl.kclauncher/com.swl.launcher.ui.HomeActivity} from uid 10058 on display 0
+12-06 20:14:16.914 V/WindowManager( 3096): addAppToken: AppWindowToken{327c5765 token=Token{19bcd85c ActivityRecord{211176cf u0 com.swl.kclauncher/com.swl.launcher.ui.HomeActivity t10}}} to stack=0 task=10 at 1
+12-06 20:14:16.973 D/exploit ( 8805): start
+12-06 20:14:16.992 D/exploit ( 8805): start
+12-06 20:14:16.995 I/CoolXMainActivity( 8805): in retrieveMetaData, mActivityConfig=ActivityConfig: needToAutoUpdate=true, needCollectRecord=false
+12-06 20:14:16.995 D/CoolXMainActivity( 8805): transactAutoUpdate
+12-06 20:14:16.996 D/UpdateDelegation( 8805): packageName-------------->com.swl.kclauncher
+12-06 20:14:17.002 D/UpdateDelegation( 8805): versionCode-------------->11101
+12-06 20:14:17.009 I/org.coolx.applicationupdate.UpdateHelper( 8805): 第1次查询
+12-06 20:14:17.009 D/org.coolx.applicationupdate.UpdateHelper( 8805): queryUpdateTest===url----->http://sjpk.kkmv2u.com/MarketServer/update?action=checkUpdate&packagenamesAndVersioncodes=com.swl.kclauncher,11101&language=htv_zh
+12-06 20:14:17.151 E/libEGL  ( 8805): call to OpenGL ES API with no current context (logged once per thread)
+12-06 20:14:17.325 V/WindowManager( 3096): Adding window Window{368c17ea u0 com.swl.kclauncher/com.swl.launcher.ui.HomeActivity} at 3 of 4 (after Window{1a9f32c9 u0 com.swl.kclauncher/com.swl.launcher.ui.TimeZoneActivity})
+12-06 20:14:17.417 I/art     ( 8805): Background sticky concurrent mark sweep GC freed 115355(4MB) AllocSpace objects, 7(112KB) LOS objects, 15% free, 17MB/20MB, paused 1.863ms total 127.457ms
+12-06 20:14:17.451 I/AppiumUnicodeIME( 8680): onFinishInput
+12-06 20:14:17.456 I/AccessibilityNodeInfoDumper( 8772): Null child 0/1, parent: android.view.accessibility.AccessibilityNodeInfo@800133b9; boundsInParent: Rect(0, 0 - 1920, 1080); boundsInScreen: Rect(0, 0 - 1920, 1080); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:17.457 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 17ms
+12-06 20:14:17.471 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:14:17.589 I/ActivityManager( 3096): Displayed com.swl.kclauncher/com.swl.launcher.ui.HomeActivity: +640ms
+12-06 20:14:18.066 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:18.170 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.173 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.174 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.175 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.175 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:18.182 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 141ms
+12-06 20:14:18.829 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:18.836 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.837 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.837 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.837 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:18.837 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:18.841 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 17ms
+12-06 20:14:19.414 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:19.421 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:19.423 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:19.430 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:19.431 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:19.431 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:19.434 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 29ms
+12-06 20:14:19.471 I/art     ( 8772): Background concurrent mark sweep GC freed 11275(712KB) AllocSpace objects, 7(220KB) LOS objects, 50% free, 1002KB/2026KB, paused 6.231ms total 22.949ms
+12-06 20:14:20.016 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:20.024 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.025 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.026 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.026 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.026 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:20.027 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 16ms
+12-06 20:14:20.600 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:20.609 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.609 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.610 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.610 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:20.610 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:20.611 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 18ms
+12-06 20:14:21.184 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:21.189 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.190 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.191 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.191 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.191 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:21.197 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 22ms
+12-06 20:14:21.784 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:21.791 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.791 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.792 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.792 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:21.792 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:21.802 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 23ms
+12-06 20:14:22.371 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(656, 184 - 656, 600); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:22.383 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.384 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.384 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.385 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.385 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:22.386 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 21ms
+12-06 20:14:22.530 I/AppiumUnicodeIME( 8680): onKeyDown (keyCode='20', event.keyCode='20', metaState='0')
+12-06 20:14:22.549 I/AppiumUnicodeIME( 8680): onFinishInput
+12-06 20:14:22.549 I/AppiumUnicodeIME( 8680): onStartInput
+12-06 20:14:22.885 I/AppiumUnicodeIME( 8680): onKeyUp (keyCode='20', event.keyCode='20', metaState='0')
+12-06 20:14:22.968 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002ba22; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(630, 203 - 630, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:22.974 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.975 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.980 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.980 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:22.981 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:22.982 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 22ms
+12-06 20:14:23.565 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:23.574 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:23.575 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:23.576 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:23.576 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:23.576 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:23.578 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 26ms
+12-06 20:14:24.114 I/art     ( 8772): Background concurrent mark sweep GC freed 15187(990KB) AllocSpace objects, 7(146KB) LOS objects, 53% free, 886KB/1910KB, paused 7.037ms total 14.391ms
+12-06 20:14:24.165 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:24.189 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.190 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.190 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.190 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.191 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:24.208 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 56ms
+12-06 20:14:24.863 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:24.877 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.878 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.878 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.878 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:24.879 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:24.880 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 24ms
+12-06 20:14:25.299 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:25.301 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:25.303 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:25.307 E/GCM     ( 8465): GCM failed to read backup checkin config, checkin may have failed
+12-06 20:14:25.309 W/GCM     ( 8465): GCM FAILED TO INITIALIZE - missing checkin
+12-06 20:14:25.310 W/GCM     ( 8465): GCM registration failed: invalid or missing checkin null
+12-06 20:14:25.317 W/YouTube ( 8916): (unknown) Could not register with GCM: 
+12-06 20:14:25.317 W/YouTube ( 8916): java.io.IOException: AUTHENTICATION_FAILED
+12-06 20:14:25.317 W/YouTube ( 8916): 	at bmu.a(Unknown Source)
+12-06 20:14:25.317 W/YouTube ( 8916): 	at chu.run(SourceFile:57)
+12-06 20:14:25.317 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-06 20:14:25.317 W/YouTube ( 8916): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-06 20:14:25.317 W/YouTube ( 8916): 	at bwo.run(SourceFile:40)
+12-06 20:14:25.317 W/YouTube ( 8916): 	at java.lang.Thread.run(Thread.java:818)
+12-06 20:14:25.449 I/art     ( 8772): Background concurrent mark sweep GC freed 18820(996KB) AllocSpace objects, 0(0B) LOS objects, 54% free, 857KB/1881KB, paused 7.095ms total 29.362ms
+12-06 20:14:25.464 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:25.471 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:25.472 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:25.472 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:25.472 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:25.473 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:25.474 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 21ms
+12-06 20:14:25.972 I/art     ( 8772): Background sticky concurrent mark sweep GC freed 13566(718KB) AllocSpace objects, 0(0B) LOS objects, 43% free, 1025KB/1830KB, paused 6.343ms total 10.856ms
+12-06 20:14:26.042 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:26.055 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.056 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.056 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.056 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.056 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:26.058 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 21ms
+12-06 20:14:26.640 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:26.648 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.653 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.656 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.656 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:26.656 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:26.659 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 34ms
+12-06 20:14:26.718 I/art     ( 8772): Background concurrent mark sweep GC freed 9667(635KB) AllocSpace objects, 4(98KB) LOS objects, 46% free, 1173KB/2MB, paused 6.570ms total 21.217ms
+12-06 20:14:27.233 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8002b661; boundsInParent: Rect(0, 0 - 525, 378); boundsInScreen: Rect(105, 203 - 105, 581); packageName: com.swl.kclauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:27.242 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001d525; boundsInParent: Rect(524132, 0 - 524444, 41); boundsInScreen: Rect(105, 1137 - 417, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Android Input Manager for Unicode; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:27.243 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001f32d; boundsInParent: Rect(524146, 0 - 524431, 41); boundsInScreen: Rect(472, 1137 - 757, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Appium Settings; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:27.243 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@800236bf; boundsInParent: Rect(524230, 0 - 524346, 41); boundsInScreen: Rect(911, 1137 - 1027, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: Unlock; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/item_name; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:27.244 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001af9b; boundsInParent: Rect(0, 0 - 156, 45); boundsInScreen: Rect(105, 1321 - 261, 1080); packageName: com.swl.kclauncher; className: android.widget.TextView; text: 系统工具; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/textView_system_tools; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]
+12-06 20:14:27.244 I/AccessibilityNodeInfoDumper( 8772): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8001abda; boundsInParent: Rect(0, 0 - 1790, 473); boundsInScreen: Rect(105, 1404 - 1895, 1080); packageName: com.swl.kclauncher; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.swl.kclauncher:id/recyclerView_system_app_list; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+12-06 20:14:27.245 W/AccessibilityNodeInfoDumper( 8772): Fetch time: 19ms
+12-06 20:14:28.049 W/System.err( 8805): java.net.UnknownHostException: Unable to resolve host "sjpk.kkmv2u.com": No address associated with hostname
+12-06 20:14:28.049 W/System.err( 8805): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:457)
+12-06 20:14:28.049 W/System.err( 8805): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+12-06 20:14:28.049 W/System.err( 8805): 	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.HostResolver$1.getAllByName(HostResolver.java:29)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:232)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:124)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:272)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:382)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:332)
+12-06 20:14:28.049 W/System.err( 8805): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:199)
+12-06 20:14:28.049 W/System.err( 8805): 	at org.coolx.applicationupdate.UpdateHelper.downloadFile(UpdateHelper.java:430)
+12-06 20:14:28.049 W/System.err( 8805): 	at org.coolx.applicationupdate.UpdateHelper.queryUpdateFromServer(UpdateHelper.java:218)
+12-06 20:14:28.049 W/System.err( 8805): 	at org.coolx.applicationupdate.UpdateHelper.access$000(UpdateHelper.java:32)
+12-06 20:14:28.049 W/System.err( 8805): 	at org.coolx.applicationupdate.UpdateHelper$QueryTask.doInBackground(UpdateHelper.java:522)
+12-06 20:14:28.049 W/System.err( 8805): 	at org.coolx.applicationupdate.UpdateHelper$QueryTask.doInBackground(UpdateHelper.java:511)
+12-06 20:14:28.049 W/System.err( 8805): 	at android.os.AsyncTask$2.call(AsyncTask.java:292)
+12-06 20:14:28.049 W/System.err( 8805): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-06 20:14:28.049 W/System.err( 8805): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+12-06 20:14:28.049 W/System.err( 8805): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-06 20:14:28.049 W/System.err( 8805): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-06 20:14:28.049 W/System.err( 8805): 	at java.lang.Thread.run(Thread.java:818)
+12-06 20:14:28.049 W/System.err( 8805): Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-06 20:14:28.050 W/System.err( 8805): 	at libcore.io.Posix.android_getaddrinfo(Native Method)
+12-06 20:14:28.050 W/System.err( 8805): 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:55)
+12-06 20:14:28.050 W/System.err( 8805): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:438)
+12-06 20:14:28.050 W/System.err( 8805): 	... 21 more
+12-06 20:14:28.050 E/org.coolx.applicationupdate.UpdateHelper( 8805): Download xml error!
+12-06 20:14:28.052 I/org.coolx.applicationupdate.UpdateHelper( 8805): in onPostExecute: packageName=com.swl.kclauncher updateInfo=null
+12-06 20:14:28.052 D/org.coolx.applicationupdate.UpdateHelper( 8805): onQueryComplete
+12-06 20:14:28.052 I/org.coolx.applicationupdate.UpdateHelper( 8805): There isn't any new versions
+12-06 20:14:28.052 D/UpdateDelegation( 8805): packageName-------------->com.swl.kclauncher
+12-06 20:14:28.053 D/UpdateDelegation( 8805): versionCode-------------->11101
+12-06 20:14:28.053 I/org.coolx.applicationupdate.UpdateHelper( 8805): 第2次查询
+12-06 20:14:28.053 D/org.coolx.applicationupdate.UpdateHelper( 8805): queryUpdateTest===url----->http://sjk.kpv2u.com/MarketServer/update?action=checkUpdate&packagenamesAndVersioncodes=com.swl.kclauncher,11101&language=htv_zh
+12-06 20:14:28.055 E/RegisterTask( 8805): registerDone = true mCheckCount = 0
+12-06 20:14:34.179 I/org.coolx.applicationupdate.UpdateHelper( 8805): parse xml: parser Duration(millSecond)=0
+12-06 20:14:34.184 I/org.coolx.applicationupdate.UpdateHelper( 8805): in onPostExecute: packageName=com.swl.kclauncher updateInfo=null
+12-06 20:14:34.184 D/org.coolx.applicationupdate.UpdateHelper( 8805): onQueryComplete
+12-06 20:14:34.184 I/org.coolx.applicationupdate.UpdateHelper( 8805): There isn't any new versions
+12-06 20:14:36.811 I/art     ( 8772): Background sticky concurrent mark sweep GC freed 16245(860KB) AllocSpace objects, 0(0B) LOS objects, 45% free, 1033KB/1883KB, paused 6.954ms total 11.669ms
+12-06 20:14:37.299 W/YouTube ( 8916): (unknown) Missing task factory for task type: cwv
+12-06 20:14:39.851 I/art     ( 8772): Background sticky concurrent mark sweep GC freed 14406(766KB) AllocSpace objects, 0(0B) LOS objects, 46% free, 995KB/1864KB, paused 5.027ms total 11.995ms
+12-06 20:14:43.286 I/AppiumUnicodeIME( 8680): onKeyDown (keyCode='23', event.keyCode='23', metaState='0')
+12-06 20:14:43.303 I/AppiumUnicodeIME( 8680): onKeyUp (keyCode='23', event.keyCode='23', metaState='0')
+12-06 20:14:45.519 I/art     ( 8772): Background concurrent mark sweep GC freed 19929(1047KB) AllocSpace objects, 0(0B) LOS objects, 54% free, 859KB/1883KB, paused 6.325ms total 15.435ms
+12-06 20:14:45.932 W/ContextImpl( 4012): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1692 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.mbx.clearservice.Alarmreceiver.onReceive:17 android.app.ActivityThread.handleReceiver:2609 
+12-06 20:14:45.943 I/ClearService( 4012): 服务启动
+12-06 20:14:45.950 I/ClearService( 4012): 25
+12-06 20:14:45.952 I/ClearService( 4012): 清理前的可用内存320
+12-06 20:14:45.952 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@24f2c012
+12-06 20:14:45.952 I/ClearService( 4012): 进程名com.swl.kclauncher
+12-06 20:14:45.954 I/ClearService( 4012): 前台进程com.swl.kclauncher
+12-06 20:14:45.954 I/ClearService( 4012): It will be killed, package name : com.swl.kclauncher
+12-06 20:14:45.959 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@11cd73e3
+12-06 20:14:45.959 I/ClearService( 4012): 进程名org.coolx.htvlauncher
+12-06 20:14:45.961 I/ClearService( 4012): 前台进程com.swl.kclauncher
+12-06 20:14:45.962 I/ClearService( 4012): It will be killed, package name : org.coolx.htvlauncher
+12-06 20:14:45.962 I/ActivityManager( 3096): Killing 7177:org.coolx.htvlauncher/u0a32 (adj 6): kill background
+12-06 20:14:45.981 I/art     ( 8772): Background sticky concurrent mark sweep GC freed 15865(840KB) AllocSpace objects, 0(0B) LOS objects, 47% free, 990KB/1883KB, paused 6.331ms total 10.925ms
+12-06 20:14:45.998 W/InputDispatcher( 3096): channel '3bfe363b org.coolx.htvlauncher/org.coolx.htvlauncherframework.FinalyActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+12-06 20:14:45.999 E/InputDispatcher( 3096): channel '3bfe363b org.coolx.htvlauncher/org.coolx.htvlauncherframework.FinalyActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-06 20:14:46.001 D/WifiService( 3096): Client connection lost with reason: 4
+12-06 20:14:46.001 I/WindowState( 3096): WIN DEATH: Window{3bfe363b u0 org.coolx.htvlauncher/org.coolx.htvlauncherframework.FinalyActivity}
+12-06 20:14:46.001 W/InputDispatcher( 3096): Attempted to unregister already unregistered input channel '3bfe363b org.coolx.htvlauncher/org.coolx.htvlauncherframework.FinalyActivity (server)'
+12-06 20:14:46.171 W/ActivityManager( 3096): Spurious death for ProcessRecord{bf019b7 7177:org.coolx.htvlauncher/u0a32}, curProc for 7177: null
+12-06 20:14:46.171 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@325bb1e0
+12-06 20:14:46.171 I/ClearService( 4012): 进程名com.mbx.clearservice
+12-06 20:14:46.171 I/ClearService( 4012): 正在运行的进程android.app.ActivityManager$RunningAppProcessInfo@147d2c99
+12-06 20:14:46.171 I/ClearService( 4012): 进程名com.google.process.gapps
+12-06 20:14:46.182 I/ClearService( 4012): 前台进程com.swl.kclauncher
+12-06 20:14:46.182 I/ClearService( 4012): It will be killed, package name : com.google.android.syncadapters.contacts
+12-06 20:14:46.183 I/ActivityManager( 3096): Killing 8465:com.google.process.gapps/u0a8 (adj 8): kill background

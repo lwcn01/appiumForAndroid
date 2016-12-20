@@ -1,0 +1,49 @@
+
+2016-10-17 17:46:30,713 - root - INFO - 配置文件路径：G:\workspace\koo\Data\cap.xml
+2016-10-17 17:46:30,721 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.swl.kclauncher", "deviceName": "192.168.8.130", "resetKeyboard": "True", "platformVersion": "5.1.1", "appActivity": "com.swl.kclauncher.ui.WelcomeActivity", "unicodeKeyboard": "True", "platformName": "Android"}}
+2016-10-17 17:46:37,128 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:46:37,130 - root - INFO - 当前截图存储路径：G:\workspace\koo\Result\2016-10-17\Image
+2016-10-17 17:46:37,130 - root - INFO - 当前截图存储路径：G:\workspace\koo\Result\2016-10-17\Image
+2016-10-17 17:46:37,179 - root - INFO - ADB连接...OK
+2016-10-17 17:46:37,179 - root - INFO - ADB连接...OK
+2016-10-17 17:46:37,179 - root - INFO - ADB连接...OK
+2016-10-17 17:46:37,180 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:46:37,180 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:46:37,180 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:46:37,180 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/f70815cf-d444-48ea-b02f-f318e8abb0b3/screenshot {"sessionId": "f70815cf-d444-48ea-b02f-f318e8abb0b3"}
+2016-10-17 17:46:37,180 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/f70815cf-d444-48ea-b02f-f318e8abb0b3/screenshot {"sessionId": "f70815cf-d444-48ea-b02f-f318e8abb0b3"}
+2016-10-17 17:46:37,180 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/f70815cf-d444-48ea-b02f-f318e8abb0b3/screenshot {"sessionId": "f70815cf-d444-48ea-b02f-f318e8abb0b3"}
+2016-10-17 17:46:38,155 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:46:38,155 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:46:38,155 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:49:49,850 - root - INFO - 配置文件路径：G:\workspace\koo\Data\cap.xml
+2016-10-17 17:49:49,858 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "192.168.8.130", "platformVersion": "5.1.1", "resetKeyboard": "True", "platformName": "Android", "appPackage": "com.swl.kclauncher", "unicodeKeyboard": "True", "appActivity": "com.swl.kclauncher.ui.WelcomeActivity"}}
+2016-10-17 17:49:56,688 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:49:59,730 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,730 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,730 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,731 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,731 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,731 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,731 - root - INFO - 当前截图存储路径：G:\workspace\koo\Result\2016-10-17\Image\首页_2016-10-17_17.49.59.png
+2016-10-17 17:49:59,731 - root - INFO - 当前截图存储路径：G:\workspace\koo\Result\2016-10-17\Image\首页_2016-10-17_17.49.59.png
+2016-10-17 17:49:59,731 - root - INFO - 当前截图存储路径：G:\workspace\koo\Result\2016-10-17\Image\首页_2016-10-17_17.49.59.png
+2016-10-17 17:49:59,771 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,771 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,771 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,771 - root - INFO - ADB连接...OK
+2016-10-17 17:49:59,772 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,772 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,772 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,772 - root - INFO - ADB当前连接设备：['192.168.8.130:5555']
+2016-10-17 17:49:59,772 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/a55a29b1-e06c-42b0-8da2-ee96c38ec805/screenshot {"sessionId": "a55a29b1-e06c-42b0-8da2-ee96c38ec805"}
+2016-10-17 17:49:59,772 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/a55a29b1-e06c-42b0-8da2-ee96c38ec805/screenshot {"sessionId": "a55a29b1-e06c-42b0-8da2-ee96c38ec805"}
+2016-10-17 17:49:59,772 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/a55a29b1-e06c-42b0-8da2-ee96c38ec805/screenshot {"sessionId": "a55a29b1-e06c-42b0-8da2-ee96c38ec805"}
+2016-10-17 17:49:59,772 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/a55a29b1-e06c-42b0-8da2-ee96c38ec805/screenshot {"sessionId": "a55a29b1-e06c-42b0-8da2-ee96c38ec805"}
+2016-10-17 17:50:03,067 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:50:03,067 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:50:03,067 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:50:03,067 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2016-10-17 17:59:58,445 - root - INFO - 配置文件路径：G:\workspace\koo\Data\cap.xml
+2016-10-17 17:59:58,453 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "192.168.8.130", "appPackage": "com.swl.kclauncher", "platformName": "Android", "appActivity": "com.swl.kclauncher.ui.WelcomeActivity", "unicodeKeyboard": "True", "resetKeyboard": "True", "platformVersion": "5.1.1"}}
+2016-10-17 18:00:04,907 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request

@@ -1,0 +1,739 @@
+2016-12-16 03:02:50:639 - info: Welcome to Appium v1.3.6 (REV 004f52f249d3513809e7d0734d9205d1fec19f8e)
+2016-12-16 03:02:50:642 - info: Appium REST http interface listener started on 0.0.0.0:4723
+2016-12-16 03:02:50:646 - info: [debug] Non-default server args: {"noReset":true,"log":"G:\\workspace\\kooTest\\Result\\appium.log"}
+2016-12-16 03:02:50:647 - info: Console LogLevel: debug
+2016-12-16 03:02:50:647 - info: File LogLevel: debug
+2016-12-16 03:02:59:810 - info: --> POST /wd/hub/session {"desiredCapabilities":{"platformName":"Android","platformVersion":"5.1.1","deviceName":"192.168.8.130","appPackage":"com.swl.kclauncher","appActivity":"com.swl.kclauncher.ui.WelcomeActivity","resetKeyboard":"True","unicodeKeyboard":"True"}}
+2016-12-16 03:02:59:813 - info: Client User-Agent string: Python-urllib/3.5
+2016-12-16 03:02:59:814 - warn: Converting cap resetKeyboard from string to boolean. This might cause unexpected behavior.
+2016-12-16 03:02:59:814 - warn: Converting cap unicodeKeyboard from string to boolean. This might cause unexpected behavior.
+2016-12-16 03:02:59:817 - info: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+2016-12-16 03:02:59:818 - info: [debug] Creating new appium session f4689ba8-ab97-4481-a98b-9a7de6c3828a
+2016-12-16 03:02:59:819 - info: Starting android appium
+2016-12-16 03:02:59:820 - info: [debug] Getting Java version
+2016-12-16 03:02:59:912 - info: Java version is: 1.7.0_80
+2016-12-16 03:02:59:914 - info: [debug] Checking whether adb is present
+2016-12-16 03:02:59:915 - info: [debug] Using adb from D:\AndroidStudio\sdk\platform-tools\adb.exe
+2016-12-16 03:02:59:915 - info: [debug] Using fast reset? false
+2016-12-16 03:02:59:916 - info: [debug] Preparing device for session
+2016-12-16 03:02:59:916 - info: [debug] Not checking whether app is present since we are assuming it's already on the device
+2016-12-16 03:02:59:917 - info: Retrieving device
+2016-12-16 03:02:59:917 - info: [debug] Trying to find a connected android device
+2016-12-16 03:02:59:918 - info: [debug] Getting connected devices...
+2016-12-16 03:02:59:919 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe devices
+2016-12-16 03:02:59:942 - info: [debug] 1 device(s) connected
+2016-12-16 03:02:59:943 - info: Found device 192.168.8.130:5555
+2016-12-16 03:02:59:943 - info: [debug] Setting device id to 192.168.8.130:5555
+2016-12-16 03:02:59:944 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-12-16 03:02:59:945 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 wait-for-device
+2016-12-16 03:02:59:967 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "echo 'ready'"
+2016-12-16 03:03:00:040 - info: [debug] Starting logcat capture
+2016-12-16 03:03:11:583 - warn: No app capability, can't parse package/activity
+2016-12-16 03:03:11:583 - info: [debug] Getting device API level
+2016-12-16 03:03:11:584 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "getprop ro.build.version.sdk"
+2016-12-16 03:03:11:664 - info: [debug] Device is at API Level 22
+2016-12-16 03:03:11:665 - info: Device API level is: 22
+2016-12-16 03:03:11:666 - info: [debug] Apk doesn't exist locally
+2016-12-16 03:03:11:666 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "rm -rf /data/local/tmp/strings.json"
+2016-12-16 03:03:11:729 - info: [debug] Not uninstalling app since server not started with --full-reset
+2016-12-16 03:03:11:730 - info: [debug] Skipping install since we launched with a package instead of an app path
+2016-12-16 03:03:11:730 - info: [debug] Forwarding system:4724 to device:4724
+2016-12-16 03:03:11:731 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 forward tcp:4724 tcp:4724
+2016-12-16 03:03:11:754 - info: [debug] Pushing appium bootstrap to device...
+2016-12-16 03:03:11:755 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 push "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+2016-12-16 03:03:11:849 - info: [debug] Enabling Unicode keyboard support
+2016-12-16 03:03:11:850 - info: [debug] Pushing unicode ime to device...
+2016-12-16 03:03:11:851 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 install "C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
+2016-12-16 03:03:12:650 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "settings get secure default_input_method"
+2016-12-16 03:03:13:195 - info: [debug] Unsetting IME 'io.appium.android.ime/.UnicodeIME'
+2016-12-16 03:03:13:196 - info: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2016-12-16 03:03:13:196 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "ime enable io.appium.android.ime/.UnicodeIME"
+2016-12-16 03:03:13:858 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "ime set io.appium.android.ime/.UnicodeIME"
+2016-12-16 03:03:14:488 - info: [debug] Pushing settings apk to device...
+2016-12-16 03:03:14:488 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 install "C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+2016-12-16 03:03:15:149 - info: [debug] Pushing unlock helper app to device...
+2016-12-16 03:03:15:150 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 install "C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+2016-12-16 03:03:15:740 - info: Starting App
+2016-12-16 03:03:15:740 - info: [debug] Attempting to kill all 'uiautomator' processes
+2016-12-16 03:03:15:741 - info: [debug] Getting all processes with 'uiautomator'
+2016-12-16 03:03:15:741 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "ps 'uiautomator'"
+2016-12-16 03:03:15:800 - info: [debug] No matching processes found
+2016-12-16 03:03:15:800 - info: [debug] Running bootstrap
+2016-12-16 03:03:15:801 - info: [debug] spawning: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap
+2016-12-16 03:03:16:365 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-12-16 03:03:16:366 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-12-16 03:03:16:366 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2016-12-16 03:03:16:367 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-12-16 03:03:16:368 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-12-16 03:03:16:369 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-12-16 03:03:16:370 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-12-16 03:03:16:370 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2016-12-16 03:03:16:393 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2016-12-16 03:03:16:395 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2016-12-16 03:03:16:396 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2016-12-16 03:03:16:396 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2016-12-16 03:03:16:398 - info: [debug] Waking up device if it's not alive
+2016-12-16 03:03:16:398 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2016-12-16 03:03:16:402 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2016-12-16 03:03:16:436 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2016-12-16 03:03:16:437 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:16:437 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2016-12-16 03:03:16:438 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "dumpsys window"
+2016-12-16 03:03:16:440 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:16:505 - info: [debug] Screen already unlocked, continuing.
+2016-12-16 03:03:16:506 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2016-12-16 03:03:16:547 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2016-12-16 03:03:16:547 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:16:548 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2016-12-16 03:03:16:548 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+2016-12-16 03:03:16:548 - info: [debug] dataDir set to: /data/local/tmp
+2016-12-16 03:03:16:549 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2016-12-16 03:03:16:586 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2016-12-16 03:03:16:587 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:16:587 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2016-12-16 03:03:16:588 - info: [debug] Getting device API level
+2016-12-16 03:03:16:589 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "getprop ro.build.version.sdk"
+2016-12-16 03:03:16:591 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+2016-12-16 03:03:16:649 - info: [debug] Device is at API Level 22
+2016-12-16 03:03:16:650 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.swl.kclauncher/com.swl.kclauncher.ui.WelcomeActivity"
+2016-12-16 03:03:17:770 - info: [debug] Waiting for pkg "com.swl.kclauncher" and activity "com.swl.kclauncher.ui.WelcomeActivity" to be focused
+2016-12-16 03:03:17:771 - info: [debug] Getting focused package and activity
+2016-12-16 03:03:17:771 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "dumpsys window windows"
+2016-12-16 03:03:17:836 - info: [debug] Device launched! Ready for commands
+2016-12-16 03:03:17:836 - info: [debug] Setting command timeout to the default of 60 secs
+2016-12-16 03:03:17:837 - info: [debug] Appium session started with sessionId f4689ba8-ab97-4481-a98b-9a7de6c3828a
+2016-12-16 03:03:17:842 - info: <-- POST /wd/hub/session 303 18030.977 ms - 9 
+2016-12-16 03:03:17:847 - info: --> GET /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a {}
+2016-12-16 03:03:17:849 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"5.1.1","deviceName":"192.168.8.130","appPackage":"com.swl.kclauncher","appActivity":"com.swl.kclauncher.ui.WelcomeActivity","resetKeyboard":true,"unicodeKeyboard":true},"platformName":"Android","deviceName":"192.168.8.130","appPackage":"com.swl.kclauncher","appActivity":"com.swl.kclauncher.ui.WelcomeActivity","resetKeyboard":true,"unicodeKeyboard":true},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:17:852 - info: <-- GET /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a 200 4.636 ms - 727 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"5.1.1","deviceName":"192.168.8.130","appPackage":"com.swl.kclauncher","appActivity":"com.swl.kclauncher.ui.WelcomeActivity","resetKeyboard":true,"unicodeKeyboard":true},"platformName":"Android","deviceName":"192.168.8.130","appPackage":"com.swl.kclauncher","appActivity":"com.swl.kclauncher.ui.WelcomeActivity","resetKeyboard":true,"unicodeKeyboard":true},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:863 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/today_news_entrance","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:20:865 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:20:866 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/today_news_entrance","context":"","multiple":false}]
+2016-12-16 03:03:20:908 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/today_news_entrance","context":"","multiple":false}}
+2016-12-16 03:03:20:909 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:20:909 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:20:909 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/today_news_entrance using ID with the contextId:  multiple: false
+2016-12-16 03:03:20:910 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/today_news_entrance]
+2016-12-16 03:03:20:911 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"1"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:912 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 200 49.613 ms - 87 {"status":0,"value":{"ELEMENT":"1"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:913 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2016-12-16 03:03:20:916 - info: --> GET /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element/1/displayed {}
+2016-12-16 03:03:20:917 - info: [debug] Pushing command to appium work queue: ["element:getAttribute",{"elementId":"1","attribute":"displayed"}]
+2016-12-16 03:03:20:954 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"elementId":"1","attribute":"displayed"}}
+2016-12-16 03:03:20:954 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:956 - info: <-- GET /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element/1/displayed 200 40.450 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:961 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:20:962 - info: [debug] [BOOTSTRAP] [debug] Got command action: getAttribute
+2016-12-16 03:03:20:962 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"true"}
+2016-12-16 03:03:20:965 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/today_news_entrance","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:20:965 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:20:966 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/today_news_entrance","context":"","multiple":false}]
+2016-12-16 03:03:20:989 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/today_news_entrance","context":"","multiple":false}}
+2016-12-16 03:03:20:990 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"2"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:993 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 200 28.531 ms - 87 {"status":0,"value":{"ELEMENT":"2"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:20:994 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:20:994 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:20:995 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/today_news_entrance using ID with the contextId:  multiple: false
+2016-12-16 03:03:20:995 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/today_news_entrance]
+2016-12-16 03:03:20:995 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2016-12-16 03:03:20:997 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/touch/perform {"actions":[{"action":"tap","options":{"element":"2","x":null,"y":null,"count":1}}],"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:21:001 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"2"}]
+2016-12-16 03:03:21:037 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2016-12-16 03:03:21:038 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:21:039 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-12-16 03:03:21:136 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:21:137 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:21:139 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/touch/perform 200 141.455 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:21:142 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:21:143 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:21:144 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:21:147 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:21:148 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:21:148 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:21:148 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:21:261 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:21:262 - info: [debug] Condition unmet after 119ms. Timing out.
+2016-12-16 03:03:21:263 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:21:265 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 123.289 ms - 230 
+2016-12-16 03:03:21:769 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:21:769 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:21:770 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:21:799 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:21:800 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:21:800 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:21:801 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:21:827 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:21:829 - info: [debug] Condition unmet after 58ms. Timing out.
+2016-12-16 03:03:21:829 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:21:831 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 62.408 ms - 230 
+2016-12-16 03:03:22:335 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:22:336 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:22:336 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:22:368 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:22:368 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:22:369 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:22:369 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:22:446 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:22:448 - info: [debug] Condition unmet after 111ms. Timing out.
+2016-12-16 03:03:22:448 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:22:450 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 116.412 ms - 230 
+2016-12-16 03:03:22:954 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:22:955 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:22:955 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:22:997 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:22:998 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:22:999 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:22:999 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:23:031 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:23:033 - info: [debug] Condition unmet after 77ms. Timing out.
+2016-12-16 03:03:23:033 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:23:035 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 81.651 ms - 230 
+2016-12-16 03:03:23:537 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:23:538 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:23:539 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:23:568 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:23:570 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:23:570 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:23:571 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:23:618 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:23:619 - info: [debug] Condition unmet after 81ms. Timing out.
+2016-12-16 03:03:23:619 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:23:621 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 83.475 ms - 230 
+2016-12-16 03:03:24:124 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:24:125 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:24:125 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:24:167 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:24:168 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:24:169 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:24:169 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:24:207 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:24:208 - info: [debug] Condition unmet after 83ms. Timing out.
+2016-12-16 03:03:24:208 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:24:210 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 86.074 ms - 230 
+2016-12-16 03:03:24:714 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:24:714 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:24:715 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:24:746 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:24:747 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:24:747 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:24:747 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:24:799 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:24:800 - info: [debug] Condition unmet after 85ms. Timing out.
+2016-12-16 03:03:24:801 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:24:802 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 88.742 ms - 230 
+2016-12-16 03:03:25:307 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:25:307 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:25:307 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:25:347 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:25:348 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:25:349 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:25:349 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:25:390 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:25:391 - info: [debug] Condition unmet after 84ms. Timing out.
+2016-12-16 03:03:25:392 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:25:393 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 87.479 ms - 230 
+2016-12-16 03:03:25:897 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:25:897 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:25:898 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:25:948 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:25:948 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:25:948 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:25:948 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:26:110 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:26:116 - info: [debug] Condition unmet after 218ms. Timing out.
+2016-12-16 03:03:26:116 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:26:117 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 221.463 ms - 230 
+2016-12-16 03:03:26:621 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:26:622 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:26:622 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:26:656 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:26:658 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:26:658 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:26:658 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:26:695 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:26:696 - info: [debug] Condition unmet after 74ms. Timing out.
+2016-12-16 03:03:26:696 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:26:698 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 77.139 ms - 230 
+2016-12-16 03:03:27:201 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:27:202 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:27:203 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:27:237 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:27:237 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:27:237 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:27:237 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:27:357 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:27:358 - info: [debug] Condition unmet after 156ms. Timing out.
+2016-12-16 03:03:27:358 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:27:359 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 158.773 ms - 230 
+2016-12-16 03:03:27:863 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:27:863 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:27:864 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:27:907 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:27:908 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:27:908 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:27:908 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:27:950 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:27:951 - info: [debug] Condition unmet after 88ms. Timing out.
+2016-12-16 03:03:27:951 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:27:952 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 90.615 ms - 230 
+2016-12-16 03:03:28:457 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:28:457 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:28:458 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:28:497 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:28:497 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:28:498 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:28:498 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:28:535 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:28:538 - info: [debug] Condition unmet after 81ms. Timing out.
+2016-12-16 03:03:28:539 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:28:540 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 84.460 ms - 230 
+2016-12-16 03:03:29:044 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:29:045 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:29:045 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:29:070 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:29:071 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:29:071 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:29:071 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:29:108 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:29:110 - info: [debug] Condition unmet after 65ms. Timing out.
+2016-12-16 03:03:29:110 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:29:111 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 67.328 ms - 230 
+2016-12-16 03:03:29:615 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:29:616 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:29:616 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:29:657 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:29:658 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:29:659 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:29:659 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:29:698 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:29:700 - info: [debug] Condition unmet after 84ms. Timing out.
+2016-12-16 03:03:29:700 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:29:701 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 86.886 ms - 230 
+2016-12-16 03:03:30:205 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:30:206 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:30:206 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:30:247 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:30:248 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:30:248 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:30:248 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:30:273 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:30:274 - info: [debug] Condition unmet after 67ms. Timing out.
+2016-12-16 03:03:30:274 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:30:276 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 71.664 ms - 230 
+2016-12-16 03:03:30:779 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"//android.support.v7.widget.RecyclerView[0]","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"xpath"}
+2016-12-16 03:03:30:780 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:30:780 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}]
+2016-12-16 03:03:30:817 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.support.v7.widget.RecyclerView[0]","context":"","multiple":false}}
+2016-12-16 03:03:30:818 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:30:818 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:30:818 - info: [debug] [BOOTSTRAP] [debug] Finding //android.support.v7.widget.RecyclerView[0] using XPATH with the contextId:  multiple: false
+2016-12-16 03:03:30:857 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-12-16 03:03:30:858 - info: [debug] Condition unmet after 78ms. Timing out.
+2016-12-16 03:03:30:859 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:30:860 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 81.457 ms - 230 
+2016-12-16 03:03:31:364 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/touch/perform {"actions":[{"action":"tap","options":{"x":null,"y":null,"count":1}}],"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:31:365 - info: [debug] Pushing command to appium work queue: ["click",{"x":0,"y":0}]
+2016-12-16 03:03:31:407 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"click","params":{"x":0,"y":0}}
+2016-12-16 03:03:31:407 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:31:408 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-12-16 03:03:31:408 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1920,1080]
+2016-12-16 03:03:31:501 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:31:502 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:31:504 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/touch/perform 200 139.835 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:31:508 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:31:509 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:31:546 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:31:548 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:31:548 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:32:454 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:32:456 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 948.694 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:32:457 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:32:459 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:32:460 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:32:497 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:32:497 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:32:498 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:33:667 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:33:668 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:33:670 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 1210.039 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:33:674 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:33:675 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:33:717 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:33:717 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:33:718 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:34:869 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:34:870 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:34:872 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 1198.441 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:34:875 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:34:876 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:34:917 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:34:918 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:34:918 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:277 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:278 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:280 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 1405.075 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:283 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:36:284 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:36:316 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:36:317 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:318 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 35.588 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:320 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:320 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:321 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:323 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:36:323 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:36:357 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:36:357 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:359 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 35.793 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:359 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:359 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:359 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:361 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:36:362 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:36:397 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:36:398 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:401 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 39.297 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:401 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:402 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:402 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:404 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:36:405 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:36:447 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:36:448 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:449 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:449 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:451 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 46.822 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:451 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:454 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:36:454 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:36:497 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:36:498 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:498 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:498 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:499 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:500 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 46.829 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:503 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":20}
+2016-12-16 03:03:36:504 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":20,"metastate":null}]
+2016-12-16 03:03:36:546 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":20,"metastate":null}}
+2016-12-16 03:03:36:547 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:549 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 45.487 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:549 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:549 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:36:550 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:36:551 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:36:552 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:36:552 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:36:586 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:36:588 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:36:588 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:36:588 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:36:589 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:36:589 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:36:589 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:36:589 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:36:607 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:36:608 - info: [debug] Condition unmet after 56ms. Timing out.
+2016-12-16 03:03:36:608 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:36:610 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 58.239 ms - 195 
+2016-12-16 03:03:37:113 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:37:114 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:37:115 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:37:157 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:37:158 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:37:158 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:37:158 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:37:159 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:37:159 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:37:159 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:37:159 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:37:172 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:37:173 - info: [debug] Condition unmet after 59ms. Timing out.
+2016-12-16 03:03:37:174 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:37:175 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 61.854 ms - 195 
+2016-12-16 03:03:37:678 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:37:679 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:37:680 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:37:717 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:37:718 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:37:718 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:37:719 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:37:719 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:37:719 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:37:720 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-U
+2016-12-16 03:03:37:721 - info: [debug] [UIAUTOMATOR STDOUT] IAUTO] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false[/APPIUM-UIAUTO]
+2016-12-16 03:03:37:721 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:37:723 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:37:725 - info: [debug] Condition unmet after 45ms. Timing out.
+2016-12-16 03:03:37:725 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:37:726 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 48.353 ms - 195 
+2016-12-16 03:03:38:231 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:38:231 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:38:232 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:38:267 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:38:267 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:38:268 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:38:268 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:38:268 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIAUTO] [debug] Using: UiSelect
+2016-12-16 03:03:38:269 - info: [debug] [UIAUTOMATOR STDOUT] or[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full][/APPIUM-UIAUTO]
+2016-12-16 03:03:38:269 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:38:269 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:38:270 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:38:290 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:38:291 - info: [debug] Condition unmet after 60ms. Timing out.
+2016-12-16 03:03:38:292 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:38:293 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 63.347 ms - 195 
+2016-12-16 03:03:38:796 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:38:797 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:38:797 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:38:837 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:38:838 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:38:838 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:38:838 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:38:839 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:38:839 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:38:839 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:38:840 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:38:847 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:38:848 - info: [debug] Condition unmet after 51ms. Timing out.
+2016-12-16 03:03:38:848 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:38:849 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 53.286 ms - 195 
+2016-12-16 03:03:39:353 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:39:354 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:39:354 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:39:397 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:39:398 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:39:398 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:39:399 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:39:399 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:39:399 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:39:400 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIA
+2016-12-16 03:03:39:400 - info: [debug] [UIAUTOMATOR STDOUT] UTO] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false[/APPIUM-UIAUTO]
+2016-12-16 03:03:39:400 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:39:403 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:39:404 - info: [debug] Condition unmet after 50ms. Timing out.
+2016-12-16 03:03:39:405 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:39:406 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 53.196 ms - 195 
+2016-12-16 03:03:39:909 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:39:910 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:39:910 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:39:946 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:39:947 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:39:948 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:39:948 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:39:948 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:39:948 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:39:949 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIA
+2016-12-16 03:03:39:949 - info: [debug] [UIAUTOMATOR STDOUT] UTO] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false[/APPIUM-UIAUTO]
+2016-12-16 03:03:39:949 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:39:969 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:39:970 - info: [debug] Condition unmet after 60ms. Timing out.
+2016-12-16 03:03:39:970 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:39:972 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 63.336 ms - 195 
+2016-12-16 03:03:40:475 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:40:476 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:40:476 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:40:517 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:40:517 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:40:517 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:40:518 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:40:518 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIAUTO] [debug] Using: UiSelect
+2016-12-16 03:03:40:519 - info: [debug] [UIAUTOMATOR STDOUT] or[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full][/APPIUM-UIAUTO]
+2016-12-16 03:03:41:155 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:41:155 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:41:156 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:41:194 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:41:195 - info: [debug] Condition unmet after 719ms. Timing out.
+2016-12-16 03:03:41:196 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:41:197 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 721.891 ms - 195 
+2016-12-16 03:03:41:700 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:41:701 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:41:701 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:41:737 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:41:737 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:41:738 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:41:738 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:41:738 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIAUTO] [debug] Using: UiSelect
+2016-12-16 03:03:41:739 - info: [debug] [UIAUTOMATOR STDOUT] or[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full][/APPIUM-UIAUTO]
+2016-12-16 03:03:41:739 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:41:739 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:41:740 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:41:774 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:41:776 - info: [debug] Condition unmet after 75ms. Timing out.
+2016-12-16 03:03:41:776 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:41:777 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 77.696 ms - 195 
+2016-12-16 03:03:42:281 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:42:281 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:42:282 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:42:317 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:42:318 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:42:318 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:42:318 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:42:319 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIAUTO] [debug] Using: UiSelect
+2016-12-16 03:03:42:319 - info: [debug] [UIAUTOMATOR STDOUT] or[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full][/APPIUM-UIAUTO]
+2016-12-16 03:03:42:319 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:42:320 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:42:320 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:42:366 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:42:367 - info: [debug] Condition unmet after 86ms. Timing out.
+2016-12-16 03:03:42:367 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:42:369 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 88.141 ms - 195 
+2016-12-16 03:03:42:872 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:42:873 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:42:873 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:42:907 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:42:908 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:42:908 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:42:909 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:42:909 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:42:909 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:42:909 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:42:910 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:42:917 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:42:918 - info: [debug] Condition unmet after 45ms. Timing out.
+2016-12-16 03:03:42:919 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:42:920 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 47.894 ms - 195 
+2016-12-16 03:03:43:424 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:43:425 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:43:425 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:43:506 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:43:507 - info: [debug] Condition unmet after 81ms. Timing out.
+2016-12-16 03:03:43:507 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:43:508 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 85.116 ms - 195 
+2016-12-16 03:03:43:508 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:43:509 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:43:509 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:43:509 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:43:509 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:43:510 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:43:510 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:43:510 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:44:011 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:44:012 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:44:012 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:44:047 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:44:048 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:44:048 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:44:048 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:44:049 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:44:049 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:44:049 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIA
+2016-12-16 03:03:44:050 - info: [debug] [UIAUTOMATOR STDOUT] UTO] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false[/APPIUM-UIAUTO]
+2016-12-16 03:03:44:050 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:44:062 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:44:063 - info: [debug] Condition unmet after 51ms. Timing out.
+2016-12-16 03:03:44:064 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:44:065 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 53.747 ms - 195 
+2016-12-16 03:03:44:569 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:44:570 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:44:570 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:44:607 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:44:608 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:44:608 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:44:609 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:44:609 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:44:626 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:44:627 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:44:627 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:44:681 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:44:682 - info: [debug] Condition unmet after 112ms. Timing out.
+2016-12-16 03:03:44:683 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:44:684 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 115.433 ms - 195 
+2016-12-16 03:03:45:188 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:45:189 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:45:189 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:45:227 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:45:228 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:45:228 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:45:229 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:45:229 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:45:229 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:45:229 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:45:230 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:45:235 - info: [debug] Condition unmet after 46ms. Timing out.
+2016-12-16 03:03:45:235 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:45:236 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 49.327 ms - 195 
+2016-12-16 03:03:45:237 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:45:740 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element {"value":"com.swl.kclauncher:id/ll_headline_full","sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","using":"id"}
+2016-12-16 03:03:45:741 - info: [debug] Waiting up to 0ms for condition
+2016-12-16 03:03:45:741 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}]
+2016-12-16 03:03:45:777 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.swl.kclauncher:id/ll_headline_full","context":"","multiple":false}}
+2016-12-16 03:03:45:778 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:45:778 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-12-16 03:03:45:778 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:45:779 - info: [debug] [UIAUTOMATOR STDOUT] [APPIUM-UIAUTO] [debug] Using: UiSelect
+2016-12-16 03:03:45:780 - info: [debug] [UIAUTOMATOR STDOUT] or[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full][/APPIUM-UIAUTO]
+2016-12-16 03:03:46:153 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-12-16 03:03:46:153 - info: [debug] [BOOTSTRAP] [debug] Finding com.swl.kclauncher:id/ll_headline_full using ID with the contextId:  multiple: false
+2016-12-16 03:03:46:154 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.swl.kclauncher:id/ll_headline_full]
+2016-12-16 03:03:46:189 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2016-12-16 03:03:46:197 - info: [debug] Condition unmet after 455ms. Timing out.
+2016-12-16 03:03:46:197 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:46:198 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/element 500 458.682 ms - 195 
+2016-12-16 03:03:46:702 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/touch/perform {"actions":[{"action":"tap","options":{"x":null,"y":null,"count":1}}],"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:46:703 - info: [debug] Pushing command to appium work queue: ["click",{"x":0,"y":0}]
+2016-12-16 03:03:46:728 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"click","params":{"x":0,"y":0}}
+2016-12-16 03:03:46:729 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:46:730 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-12-16 03:03:46:730 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1920,1080]
+2016-12-16 03:03:46:818 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:46:818 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:46:819 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/touch/perform 200 117.481 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:46:823 - info: --> POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode {"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a","keycode":23}
+2016-12-16 03:03:46:823 - info: [debug] Pushing command to appium work queue: ["pressKeyCode",{"keycode":23,"metastate":null}]
+2016-12-16 03:03:46:852 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":23,"metastate":null}}
+2016-12-16 03:03:46:855 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-12-16 03:03:46:855 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressKeyCode
+2016-12-16 03:03:47:868 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-12-16 03:03:47:869 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:03:47:870 - info: <-- POST /wd/hub/session/f4689ba8-ab97-4481-a98b-9a7de6c3828a/appium/device/press_keycode 200 1047.672 ms - 76 {"status":0,"value":true,"sessionId":"f4689ba8-ab97-4481-a98b-9a7de6c3828a"}
+2016-12-16 03:04:46:825 - info: [debug] Didn't get a new command in 60 secs, shutting down...
+2016-12-16 03:04:46:826 - info: Shutting down appium session
+2016-12-16 03:04:46:826 - info: [debug] Pressing the HOME button
+2016-12-16 03:04:46:827 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "input keyevent 3"
+2016-12-16 03:05:05:753 - info: [debug] Logcat terminated with code 0, signal null
+2016-12-16 03:05:05:754 - info: [debug] UiAutomator exited
+2016-12-16 03:05:05:755 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "echo 'ping'"
+2016-12-16 03:05:05:757 - info: [debug] Resetting IME to 'io.appium.android.ime/.UnicodeIME'
+2016-12-16 03:05:05:758 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "ime set io.appium.android.ime/.UnicodeIME"
+2016-12-16 03:05:05:778 - info: [debug] Error: Command failed: C:\windows\system32\cmd.exe /s /c "D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "echo 'ping'""
+error: device '192.168.8.130:5555' not found
+
+2016-12-16 03:05:05:779 - info: [debug] Stopping logcat capture
+2016-12-16 03:05:05:780 - info: [debug] Logcat already stopped
+2016-12-16 03:05:05:780 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 kill-server
+2016-12-16 03:05:05:784 - warn:  killed=false, code=4294967295, signal=null, cmd=C:\windows\system32\cmd.exe /s /c "D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 shell "ime set io.appium.android.ime/.UnicodeIME""
+2016-12-16 03:05:05:786 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+2016-12-16 03:05:05:805 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-12-16 03:05:05:805 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 wait-for-device
+2016-12-16 03:05:10:806 - info: [debug] Retrying restartAdb
+2016-12-16 03:05:10:807 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 kill-server
+2016-12-16 03:05:10:831 - info: [debug] Getting connected devices...
+2016-12-16 03:05:10:831 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 devices
+2016-12-16 03:05:14:875 - info: [debug] 0 device(s) connected
+2016-12-16 03:05:14:875 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-12-16 03:05:14:875 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 wait-for-device
+2016-12-16 03:05:19:877 - info: [debug] Retrying restartAdb
+2016-12-16 03:05:19:877 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 kill-server
+2016-12-16 03:05:19:900 - info: [debug] Getting connected devices...
+2016-12-16 03:05:19:901 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 devices
+2016-12-16 03:05:24:043 - info: [debug] 0 device(s) connected
+2016-12-16 03:05:24:043 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-12-16 03:05:24:044 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 wait-for-device
+2016-12-16 03:05:29:044 - info: [debug] Retrying restartAdb
+2016-12-16 03:05:29:045 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 kill-server
+2016-12-16 03:05:29:066 - info: [debug] Getting connected devices...
+2016-12-16 03:05:29:067 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 devices
+2016-12-16 03:05:33:211 - info: [debug] 0 device(s) connected
+2016-12-16 03:05:33:211 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-12-16 03:05:33:212 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 wait-for-device
+2016-12-16 03:05:38:212 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 kill-server
+2016-12-16 03:05:38:234 - info: [debug] Getting connected devices...
+2016-12-16 03:05:38:235 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 devices
+2016-12-16 03:05:42:378 - info: [debug] 0 device(s) connected
+2016-12-16 03:05:42:378 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-12-16 03:05:42:379 - info: [debug] executing cmd: D:\AndroidStudio\sdk\platform-tools\adb.exe -s 192.168.8.130:5555 wait-for-device
+2016-12-16 03:05:47:380 - info: [debug] Device did not become ready in 5 secs; are you sure it's powered on?
+2016-12-16 03:05:47:381 - info: [debug] Attempting to uninstall app
+2016-12-16 03:05:47:381 - info: [debug] Not uninstalling app since server not started with --full-reset
+2016-12-16 03:05:47:382 - info: [debug] Cleaning up android objects
+2016-12-16 03:05:47:383 - info: [debug] Cleaning up appium session
